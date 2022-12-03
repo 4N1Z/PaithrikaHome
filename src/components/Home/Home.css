@@ -1,0 +1,76 @@
+body{
+
+}
+
+.home{
+
+}
+
+.mainContainer{
+
+    padding-top: 8rem;
+    margin: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6em;
+    align-content: stretch;
+}
+
+.leftBox{
+    /* display: grid; */
+    /* grid-template-rows: 1fr 1fr; */
+    /* background-color: red; */
+    
+}
+
+.rightBox{
+    background-color: blueviolet;
+}
+.heading{
+    /* display: grid; */
+    /* grid-template-rows: 1fr; */
+    padding: 0.5rem;
+    /* background-color: bisque;  */
+}
+.counterContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.title{
+    font-size: 3.625rem;
+    font-weight: 600; 
+    /* color: #CC281E; */
+    line-height:4.25rem;
+}
+
+.title1,.title3{
+    font-weight:500 ;  
+}
+.title2{
+    color: #CC281E;
+}
+.subTitle{
+    padding-top: 1.12rem;
+    padding-bottom: 5rem;
+}
+
+.counter{
+    /* display: flex; */
+    /* flex -direction: column; */
+    /* background-color: rgb(1, 253, 253);  */
+
+}
+
+.countNumber,.countTitle{
+    font-weight: 600;  
+    text-align: center;
+}
+.countNumber{
+    font-size: 52px;
+}
+
+.countTitle{
+    font-size: 12px;
+    text-transform: uppercase;
+}
