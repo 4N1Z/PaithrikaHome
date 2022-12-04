@@ -1,70 +1,23 @@
 
-.Navbar{
-    position: fixed;
-    /* top: 0%;
-    width: 100%;
-    height: 30px;
-    padding: 20px; */
 
-    top: 0%;
-    width: 100%;
+/* .Home li,
+.About li,
+.Gallery li,
+.Contact li,
+.Project li{
+    font-size: 200px;
+    margin-right: 10px;
+    text-transform: uppercase;
 
-    /* background: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(24px);
-    color: #fff; */
-    color: rgba(42, 41, 41, 0);
-    background-color: #f3f3f3c2;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(24px);
-
-    
-    padding: 1.5rem;
-    
-    /* display: flex;
-    justify-content: space-between;
-    align-items:center; */
-    
-    display: grid;
-    grid-template-columns: 1fr 3fr;
- 
-}
-.Navbar ul{
-
-    margin: 0;
-    padding:0 4rem 0 35rem;
-    list-style:none;
-    display: flex;
-    gap: 2rem;
-
-}
-.Navbar a{
-    /* color: inherit; */
-    text-decoration: none;
-    color: black;
-
-}
-.Navbar a.noUseClass{
-    color: #CC281E;
-}
-/* .Navbar li.active{
-    color: #CC281E;
 } */
 
-.Navbar li :hover{
-    color: #CC281E  ;
-}
-
-
-.Navbar a{
-    font-weight: 500;
+/* li{
+    margin-right: 20px;
     text-transform: uppercase;
-    font-size: 1.115rem;
-}
-
-.logo{
-    background-color: red;
-    color:#000000;
-}
+    cursor: pointer;
+    font-weight: 600;
+    font-size:20px
+} */
 
 
 /* .logo{
