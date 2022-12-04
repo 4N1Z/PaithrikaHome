@@ -1,5 +1,9 @@
 
+.bgImageTran{
+    background-image: url("../../assets/images/logo_black.png");
+    z-index: 10;
 
+}
 /* .Home li,
 .About li,
 .Gallery li,
