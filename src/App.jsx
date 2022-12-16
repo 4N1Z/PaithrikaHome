@@ -4,14 +4,14 @@ import "./index.css";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import styles from "./style.js";
-
+import Navbar2 from "./components/Navbar2/Navbar2";
 function App() {
   return (
     <div className="App">
       <div className="bg-primary w-full overflow-hidden"></div>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <Navbar />
+          {/* <Navbar /> */}
         </div>
       </div>
 
@@ -32,7 +32,7 @@ function App() {
         </div>
       </div>
 
-      {/* <Navbar/> */}
+      <Navbar2/>
       {/* <Home   /> */}
       {/* <Home/> */}
     </div>
