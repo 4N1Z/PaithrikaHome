@@ -3,7 +3,7 @@ import "./Projects.css"
 function Projects() {
   return (
     <div className='projects-container'>
-        <div className="project" id='upcoming-project'onClick={()=>{
+        <div className="project" id='upcoming-project' onMouseEnter={()=>{
             document.getElementsByClassName('project')[0].style.width = '50%'
             document.getElementsByClassName('project')[0].style.writingMode = ''
 
@@ -23,7 +23,7 @@ function Projects() {
             
             <div className="black-overlay"><p><span className='project-bold'>Upcoming</span><br />Projects</p></div>
         </div>
-        <div className="project" id='ongoing-project' onClick={()=>{
+        <div className="project" id='ongoing-project'  onMouseEnter={()=>{
             document.getElementsByClassName('project')[1].style.width = '50%'
             document.getElementsByClassName('project')[1].style.writingMode = ''
 
@@ -44,7 +44,7 @@ function Projects() {
                 <p><span className='project-bold'>Ongoing</span><br />Projects</p>
             </div>
         </div>
-        <div className="project" id='finished-project' onClick={()=>{
+        <div className="project" id='finished-project'  onMouseEnter={()=>{
             document.getElementsByClassName('project')[2].style.width = '50%'
             document.getElementsByClassName('project')[2].style.writingMode = ''
             document.getElementsByClassName('project')[2].style.textOrientation = ''
