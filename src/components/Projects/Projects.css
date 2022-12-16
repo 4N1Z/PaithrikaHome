@@ -24,7 +24,7 @@
     height: 100%;
     position: relative;
     z-index: 1100;
-    background-color: rgba(0, 0, 0, 0.596);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 100%);
 }
 .black-overlay>p{
     text-align: center;
@@ -34,4 +34,7 @@
 }
 .project-bold{
     font-weight: bold;
+}
+#ongoing-project:hover {
+    width: 50%;
 }
