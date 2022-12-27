@@ -1,14 +1,19 @@
 import React from "react";
 import "./About.css";
-import { logo, about, logoBlack } from "../../assets/images/export_file";
+import "../../App.css"
+import { about, logoBlack,PaithrikaBG,home_logo } from "../../assets/images/export_file";
 
 function About() {
   return (
     <div className="posts">
-      <h1 className="headingMain">About US</h1>
+      <div className="main_image_bg">
+        <img src={PaithrikaBG} alt="" className="bg" />
+      </div>
+      <h1 className="headingMain">About Us</h1>
 
       <div className="post-container">
-        <img src={about} alt="" />
+      
+      <img className = "image_main"src={about} alt="" />
         <div className="image-and-content">
           <div className="headline-of-post">
             <div className="turn_idea_box">
@@ -22,27 +27,29 @@ function About() {
             </div>
           </div>
           <div className="list_of_items">
-            <h1 className="list_heading">WHAT WE DO</h1>
+            <h1 className="list_heading">What We do </h1>
             <div className="list_items">
-              <img src={logoBlack} alt="" />
+              <img src={home_logo} alt="" />
               <p> BUILDING </p>
             </div>
             <div className="list_items">
-              <img src={logoBlack} alt="" />
+              <img src={home_logo} alt="" />
               <p> BUILDING </p>
             </div>
             <div className="list_items">
-              <img src={logoBlack} alt="" />
+              <img src={home_logo} alt="" />
               <p> BUILDING </p>
             </div>
             <div className="list_items">
-              <img src={logoBlack} alt="" />
+              <img src={home_logo} alt="" />
               <p> BUILDING </p>
             </div>
           </div>
       
         </div>
+
       </div>
+      <button className="contact">Contact US</button>
     </div>
   );
 }

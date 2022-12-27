@@ -1,0 +1,10 @@
+.mainHeading{
+    /* display:inline; */
+    background-color: royalblue;
+    /* position: fixed; */
+
+}
+.companies{
+    display: flex;
+    flex-direction: row;    
+}

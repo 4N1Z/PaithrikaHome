@@ -14,7 +14,7 @@ function Home() {
                 <br />
                 <span className="title2">Dream Home</span>
                 <br />
-                <span className="title3">Has never been easier</span>
+                <span className="title3">has never been easier</span>
             </div>
             <p className="subTitle">
               We offer end-to-end services with our expert team of architects,

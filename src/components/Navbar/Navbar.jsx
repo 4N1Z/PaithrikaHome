@@ -5,6 +5,7 @@ import { navLinks } from "../../constants/index.js";
 import { useState } from "react";
 
 function Navbar() {
+  
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-5 justify-between items-center navbar">

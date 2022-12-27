@@ -1,3 +1,4 @@
+
 export const navLinks = [
     {
       id: "home",
@@ -22,7 +23,7 @@ export const navLinks = [
   ];
 
 
-  export const stats = [
+export const stats = [
     {
       id: "stats-1",
       title: "User Active",
@@ -39,6 +40,32 @@ export const navLinks = [
       value: "$230M+",
     },
   ];
+
+  export const sampleTestimonials= [
+    {
+      detail : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      id : "Aniz, "
+    },
+    {
+      detail : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      id : "I"
+    },
+    {
+      detail : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      id : "Love"
+    },
+    {
+      detail : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      id : "You"
+    },
+    {
+      detail : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      id : "!"
+    },
+  ]
+
+
+   
   
 
 //   export const socialMedia = [

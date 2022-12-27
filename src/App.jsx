@@ -8,6 +8,9 @@ import Navbar2 from "./components/Navbar2/Navbar2";
 import Projects from "./components/Projects/Projects";
 import TestNav from "./components/Test_Nav/TestNav";
 import About from "./components/About/About";
+import Brands from "./components/Brands/Brands";
+import Testimonials from "./components/Testimonials/Testimonials";
+
 function App() {
   return (
 
@@ -19,30 +22,13 @@ function App() {
         </div>
       </div>
 
-      {/* <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Home />
-        </div>
-      </div> */}
-      {/* <div className={`${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          About us 
-          our works 
-          Project 
-          Gallery
-          testimonial 
-          clinet 
-          Footer
-        </div>
-      </div> */}
-
-      
-      {/* <TestNav/> */}
       <Navbar2/>
       <Home   />
-      <Projects/>
-      {/* <Home/> */}
       <About/>
+      <Projects/>
+      <Brands/>
+      <Testimonials/>
+      T
     </div>
   );
 }

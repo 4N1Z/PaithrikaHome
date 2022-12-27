@@ -14,7 +14,7 @@ body{
   width: 100%;
 } */
 
-::-webkit-scrollbar{
+body::-webkit-scrollbar{
   display: none;
 }
 *{
