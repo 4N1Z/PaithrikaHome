@@ -28,7 +28,6 @@ function App() {
       <Projects/>
       <Brands/>
       <Testimonials/>
-      T
     </div>
   );
 }
