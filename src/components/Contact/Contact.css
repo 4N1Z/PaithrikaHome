@@ -11,12 +11,13 @@ section{
     font-weight: 600;
     font-size: 3em;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.em;
 }
 .subtitle_contact{
     font-weight: 500;
     font-size:1em;
     text-transform: uppercase;
+    color: #494949;
 }
 
 .submitBtn{
@@ -58,15 +59,19 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
+label{
+    color:#494949;
+    font-weight: 500;
+}
 input,
 textarea {
         padding: 20px;
+        outline-color: #cc271ea1;
         border-bottom: 10px;
         width: 100%;
         font-size: 1rem;
-        background-color: rgba(201, 201, 201, 0.4);
-        color: white;
+        background-color: rgba(201, 201, 201, 0.2);
+        color: #CC281E;
         border-radius: 4px;
 
 }
