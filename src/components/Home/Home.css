@@ -1,6 +1,8 @@
 
 
 .home{
+    overflow: hidden;
+    min-height: 100vh;
 
 }
 
@@ -11,17 +13,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 6em;
-    /* align-content: stretch; */
 }
 
-.leftBox{
-    /* background-color: red; */
-    
-}
-
-.rightBox{
-    /* background-color: blueviolet; */
-}
 
 
 
@@ -29,7 +22,6 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     padding: 0.5rem;
-    /* background-color: bisque;  */
 }
 
 .counterContainer{
@@ -56,12 +48,10 @@
 }
 
 .counter{
-    /* display: flex; */
     display: inline-flex;
     align-items: center;
     padding: 1em;
 
-    /* background-color: rgb(1, 253, 253);  */
 
 }
 

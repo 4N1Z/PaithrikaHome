@@ -2,6 +2,7 @@ import React from "react";
 import "./Testimonials.css";
 import "../../App.css";
 import { sampleTestimonials } from "../../constants/index.js";
+import { quotes,quotes2 } from "../../assets/images/export_file";
 
 function Testimonials() {
   return (
@@ -10,7 +11,10 @@ function Testimonials() {
       <div class="testimonials">
         {sampleTestimonials.map((test) => (
           <div class="testimonial">
-            <p class="testimonial-detail">{test.detail}</p>
+            <div className="quoteDetail">
+                <img className="quoteImage" src={quotes} alt="" />
+                <p className="testimonial-detail">{test.detail}</p>
+            </div>
             <p class="testimonial-author">{test.id}</p>
           </div>
         ))}

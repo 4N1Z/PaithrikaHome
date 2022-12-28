@@ -3,6 +3,10 @@ body{
     width: 100%;
     overflow: hidden;
      */
+     /* position: fixed;
+     top: 0%; */
+     z-index: 100;
+
 }
 .bgImageTran{
     background-image: url("../../assets/images/logo_black.png");
@@ -11,50 +15,12 @@ body{
 
 }
 .navbar{
-    /* background-color: red; */
+
     width: 100%;
     padding-right: 2em;
     color: rgba(42, 41, 41, 0);
     background-color: #f3f3f3c2;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(24px);
+    /* backdrop-filter: blur(24px); */
 
 }
-
-/* .Home li,
-.About li,
-.Gallery li,
-.Contact li,
-.Project li{
-    font-size: 200px;
-    margin-right: 10px;
-    text-transform: uppercase;
-
-} */
-
-/* li{
-    margin-right: 20px;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-weight: 600;
-    font-size:20px
-} */
-
-
-/* .logo{
-    position: fixed;
-    left: 20px;
-    width: 80px;
-    cursor: pointer;
-
-} */
-/* .contentNav{
-    cursor: pointer;
-    position: fixed;
-    right:475px;  
-    width:30px;
-}
-.navLinkLabel{
-    padding-right: 20px;
-} */
-

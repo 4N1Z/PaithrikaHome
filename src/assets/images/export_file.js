@@ -3,12 +3,16 @@ import homePic from "./homePic.png";
 import menu from "./hamburger.svg";
 import close from "./close.svg";
 import about from "./about.png";
-import logoBlack from "./logo_black.png"
+import logoBlack from "./logoBlack.svg"
+import logoWhite from "./logoWhite.svg"
 import PaithrikaBG from "./PaithrikaBG.svg"
 import home_logo from "./home_logo.svg"
 import fixit from "./fixit.png"
 import kajaria from "./kajaria.png"
 import acc from"./acc.png"
+import quotes from "./quotes.svg"
+import quotes2 from "./quotes2.svg"
+import quotesDim from "./quotesDim.svg"
 
 export {
     logo,   
@@ -17,10 +21,14 @@ export {
     menu,
     about,
     logoBlack,
+    logoWhite,
     PaithrikaBG,
     home_logo,
     acc,
     kajaria,
-    fixit
+    fixit,
+    quotes,
+    quotes2,
+    quotesDim
 
 };
