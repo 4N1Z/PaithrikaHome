@@ -13,7 +13,6 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-
     <div className="App">
       {/* <div className="bg-primary w-full overflow-hidden"></div>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -22,14 +21,15 @@ function App() {
       <Navbar />
         </div>
       </div> */}
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Projects/>
-      <Brands/>
-      <Testimonials/>
-      <Contact/>
-      <Footer/>
+      
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
+      <Brands />
+      <Testimonials />
+      <Contact />
+      <Footer />
       {/* <HomeTest/> */}
     </div>
   );

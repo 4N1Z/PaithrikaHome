@@ -6,16 +6,13 @@ function Contact() {
   return (
     <section id="contact">
       <div className="contactContainer">
-
         <div className="textBox">
           <h1 className="titles_contact">Let's Talk</h1>
           <h4 className="subtitle_contact">Say 'hi' for enguiry</h4>
         </div>
-     
 
         <div className="contactForms">
           <div className="contactForm">
-        
             <div className="name">
               <label>Name</label>
               <input type="text" required />
@@ -35,7 +32,9 @@ function Contact() {
               <textarea required></textarea>
             </div>
           </div>
-          <button className="submitBtn">Send Message</button>
+          <a href="https://linktr.ee/anizbn">
+            <button className="submitBtn">Send Message</button>
+          </a>
         </div>
       </div>
     </section>
