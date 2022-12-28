@@ -27,8 +27,8 @@ function App() {
       <About/>
       <Projects/>
       <Brands/>
-      <Contact/>
       <Testimonials/>
+      <Contact/>
       <Footer/>
       {/* <HomeTest/> */}
     </div>

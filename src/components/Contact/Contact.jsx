@@ -4,7 +4,7 @@ import "../../App.css";
 
 function Contact() {
   return (
-    <section>
+    <section id="contact">
       <div className="contactContainer">
 
         <div className="textBox">

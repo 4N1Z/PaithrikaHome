@@ -45,6 +45,8 @@ function Projects() {
 
   return (
     <>
+    <section id="project">
+        <h1 className='title'>Projects</h1>
     <div className='projects-container'>
         <div className="project" id='upcoming-project' onMouseEnter={upcoming_mouse_enter}
         style={
@@ -81,6 +83,7 @@ function Projects() {
             </div>
         </div>
     </div>
+    </section>
   </>
   )
 }

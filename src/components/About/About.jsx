@@ -5,6 +5,7 @@ import { about, logoBlack,PaithrikaBG,home_logo } from "../../assets/images/expo
 
 function About() {
   return (
+    <section id="about">
     <div className="posts">
       <div className="main_image_bg">
         <img src={PaithrikaBG} alt="" className="bg" />
@@ -51,6 +52,7 @@ function About() {
       </div>
       <button className="contact">Contact US</button>
     </div>
+    </section>
   );
 }
 
