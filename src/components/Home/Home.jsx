@@ -10,14 +10,14 @@ function Home() {
         <div className="leftBox">
 
           <div className="heading">
-            <div className="title">
+            <div className="titles">
                 <span className="title1">Building your</span>
                 <br />
                 <span className="title2">Dream Home</span>
                 <br />
                 <span className="title3">has never been easier</span>
             </div>
-            <p className="subTitle">
+            <p className="subTitles">
               We offer end-to-end services with our expert team of architects,
               designers, and engineers that can help you with every step of the
               process.
