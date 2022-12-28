@@ -1,10 +1,14 @@
+/* body{
+    min-height: 100vh;
+} */
 .title{
     text-align: center;
     font-weight: 600;
     color: #CC281E;
-    font-size:1.55em;
+    font-size:2em;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    
 
 }
 /* .testimonials{

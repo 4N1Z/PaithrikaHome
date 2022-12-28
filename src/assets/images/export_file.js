@@ -13,6 +13,12 @@ import acc from"./acc.png"
 import quotes from "./quotes.svg"
 import quotes2 from "./quotes2.svg"
 import quotesDim from "./quotesDim.svg"
+import instagram from "./instagram.svg"
+import linkedin from "./linkedin.svg"
+import facebook from "./facebook.svg"
+import youtube from "./Youtube.svg"
+import logoName from "./logoName.svg"
+import footerLogo from "./footerLogo.svg"
 
 export {
     logo,   
@@ -29,6 +35,16 @@ export {
     fixit,
     quotes,
     quotes2,
-    quotesDim
+    quotesDim,
+    logoName,
+    youtube,
+    facebook,
+    linkedin,
+    instagram,
+    footerLogo
+
+
+
+
 
 };
