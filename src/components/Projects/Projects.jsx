@@ -14,7 +14,7 @@ function Projects() {
         document.getElementsByClassName('project')[2].style.writingMode = 'vertical-rl'
         
     }
-    
+
     const ongoing_mouse_enter = ()=> {
         document.getElementsByClassName('project')[1].style.width = '50%'
         document.getElementsByClassName('project')[1].style.writingMode = ''
@@ -47,6 +47,7 @@ function Projects() {
     <>
     <section id="project">
         <h1 className='title'>Projects</h1>
+
     <div className='projects-container'>
         <div className="project" id='upcoming-project' onMouseEnter={upcoming_mouse_enter}
         style={
