@@ -28,6 +28,7 @@ function App() {
       <Projects/>
       <Brands/>
       <Testimonials/>
+      {/* <HomeTest/> */}
     </div>
   );
 }

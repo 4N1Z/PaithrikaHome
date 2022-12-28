@@ -6,13 +6,13 @@ font-family: 'Poppins', sans-serif; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* 
+
 body{
 
   font-family: 'Poppins', sans-serif; 
   background-color: #F3F3F3;
   width: 100%;
-} */
+}
 
 body::-webkit-scrollbar{
   display: none;

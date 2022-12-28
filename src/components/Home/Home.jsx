@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { homePic } from "../../assets/images/export_file";
 
 function Home() {
   return (
@@ -42,7 +43,7 @@ function Home() {
 
         <div className="rightBox">
           <div className="Gallery">
-            <img src="/homePic.png" alt="home pic" />
+            <img className = "homePic" src={homePic} alt="home pic" />
           </div>
         </div>
         
