@@ -1,9 +1,8 @@
 import React from "react";
 import "./About.css";
 import "../../App.css";
-import { about,PaithrikaBG} from "../../assets/images/export_file";
-import {aboutDetails } from "../../constants/index";
-
+import { about, PaithrikaBG } from "../../assets/images/export_file";
+import { aboutDetails } from "../../constants/index";
 
 function About() {
   return (
@@ -32,19 +31,20 @@ function About() {
             <div className="list_of_items">
               <h1 className="list_heading">What We do </h1>
 
-              {aboutDetails.map((take)=>(
-                  <div className="list_items">
+              {aboutDetails.map((take) => (
+                <div className="list_items">
                   <img src={take.logo} alt="" />
                   <p> {take.id} </p>
-                  </div>
+                </div>
               ))}
-
             </div>
           </div>
         </div>
-        <a href="https://linktr.ee/anizbn">
-          <button className="contactbtn">Contact US</button>
-        </a>
+
+        <button className="contactbtn">
+          {" "}
+          <a href="https://linktr.ee/anizbn">Contact</a>
+        </button>
       </div>
     </section>
   );
