@@ -8,6 +8,7 @@ function OneStop() {
         <h1 className="title">One Stop Solution</h1>
         <div className="oneContainer">
             <div className="1half">
+              
                 
             </div>
             <div className="2half"></div>
