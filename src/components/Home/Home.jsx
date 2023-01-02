@@ -2,6 +2,11 @@ import React from "react";
 import "./Home.css";
 import { homePic } from "../../assets/images/export_file";
 
+// import PureCounter from "@srexi/purecounterjs";
+// import {PureCounter} from "@snpm i --save @srexi/purecounterjsrexi/purecounterjs";
+// new PureCounter();
+// new PureCounter()
+
 function Home() {
   return (
     <section id="home">
@@ -33,6 +38,7 @@ function Home() {
         <div className="counterContainer">
           <div className="counter">
             <h1 className="countNumber">24+</h1>
+            {/* <span data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="3" className="purecounter"></span><span> +</span> */}
             <h5 className="countTitle">
               Works <br />
               Completed

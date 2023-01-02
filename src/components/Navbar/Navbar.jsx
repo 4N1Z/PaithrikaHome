@@ -6,8 +6,28 @@ import { useState } from "react";
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
+// Header fixed
+
+  const selectHeader = document.querySelector('#nav');
+  if (selectHeader) {
+    let headerOffset = selectHeader.offsetTop;
+    let nextElement = selectHeader.nextElementSibling;
+
+    const headerFixed = () => {
+      if ((headerOffset - window.scrollY) <= 0) {
+        selectHeader.classList.add('sticked');
+        if (nextElement) nextElement.classList.add('sticked-header-offset');
+      } else {
+        selectHeader.classList.remove('sticked');
+        if (nextElement) nextElement.classList.remove('sticked-header-offset');
+      }
+    }
+    window.addEventListener('load', headerFixed);
+    document.addEventListener('scroll', headerFixed);
+  }
+
   return (
-    <nav className="w-full flex py-5 justify-between items-center navbar">
+    <nav id = "nav" className="w-full flex py-5 justify-between items-center navbar">
       <div className="sn:flex justify-end items-center flex-1">
         <img src={logo} alt="paithrika Home" className="w-[124px] h-[32px] " />
         <ul className="list-none sn:flex hidden justify-end items-center flex-1">
@@ -55,7 +75,10 @@ function Navbar() {
           </ul>
         </div>
       </div>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
     </nav>
+
   );
 }
 
