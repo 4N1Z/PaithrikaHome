@@ -41,7 +41,7 @@ function Footer() {
               </a>
             </div>
             <div className="socialLogo">
-              <a className="footerSocialLink" href="https://www.instagram.com/">
+              <a className="footerSocialLink" href="https://instagram.com/paithrika_homes?igshid=NTdlMDg3MTY=">
                 <img src={instagram} alt="" />
               </a>
               <a className="footerSocialLink" href="https://www.instagram.com/">
@@ -50,7 +50,7 @@ function Footer() {
               <a className="footerSocialLink" href="https://www.instagram.com/">
                 <img src={linkedin} alt="" />
               </a>
-              <a className="footerSocialLink" href="https://www.instagram.com/">
+              <a className="footerSocialLink" href="https://www.facebook.com/Paithrika?mibextid=ZbWKwL">
                 <img src={facebook} alt="" />
               </a>
             </div>

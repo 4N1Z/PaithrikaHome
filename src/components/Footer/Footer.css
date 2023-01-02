@@ -89,7 +89,19 @@
 
 .footerSocialLink {
     padding: 0.5em;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
 }
+
+.footerSocialLink:hover {
+
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(225, 6, 6, 0.6),
+                        0 1px 1px 0 rgba(255, 0, 0, 0.4);
+
+
+}
+
 
 
 
