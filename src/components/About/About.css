@@ -1,0 +1,158 @@
+.posts {
+
+    background-color: #CC281E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.main_image_bg {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.2;
+}
+
+
+.headingMain {
+    /* font-weight: 600;
+    font-size: 2em;
+    color: white;
+    
+    text-align: center;
+    text-transform: uppercase; */
+
+    padding: 1em;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+
+}
+
+.image_main {
+    /* width: 100%; */
+    padding-bottom: 2vh;
+    padding-right: 5vw;
+    z-index: 10;
+}
+
+
+
+.post-container {
+    padding: 6vh 6vw;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3vh;
+    color: white;
+    justify-items: center;
+    align-items: stretch;
+}
+
+.image-and-content {
+    /* display: flex;
+    align-items: flex-start; */
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 6vw;
+    align-content: space-between;
+
+}
+
+.turn_idea_box,
+.list_of_items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+
+.list_items {
+    display: inline-grid;
+    /* flex-direction: row; */
+    font-size: 1.23em;
+    font-weight: 400;
+    gap: 0.3em;
+    padding-left: 1.84em;
+    justify-content: start;
+    font-weight: 500;
+    /* font-size: 32px; */
+    letter-spacing: 0.125em;
+
+}
+
+.list_subHeading {
+    opacity: 70%;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.post-img {
+    width: 22.5em;
+    max-width: 22.5em;
+}
+
+.contents {
+    font-weight: 400;
+    letter-spacing: 0.031em;
+}
+
+.idea_heading,
+.list_heading {
+    font-weight: 600;
+    font-size: 2em;
+    /* line-height: 97%; */
+    /* letter-spacing: 0.1em; */
+
+}
+
+.contactbtn {
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+    background: #ffffff79;
+    margin-bottom: 1.3em;
+    padding: 0.6em 2em 0.6em 2em;
+}
+
+/* Media query */
+
+@media (max-width: 960px) {
+    .post-container {
+        display: grid;
+        grid-template-rows: 0.75fr 1fr;
+        /* justify-content: center; */
+        justify-items: center;
+        gap: 1vw;
+    }
+
+    .main_image_bg {
+        display: none;
+
+        /* background-image: url(../../assets/images/logo.svg); */
+
+    }
+
+}
+
+@media (max-width: 540px) {
+    .image-and-content {
+        grid: none;
+        align-content: center;
+        text-align: center;
+    }
+
+    .list_of_items {
+        grid: none;
+        display: grid;
+        grid-column: 1fr 1fr;
+    }
+
+}

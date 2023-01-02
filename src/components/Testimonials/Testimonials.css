@@ -1,0 +1,127 @@
+/* body{
+    min-height: 100vh;
+} */
+.title{
+    text-align: center;
+    font-weight: 600;
+    color: #CC281E;
+    font-size:2em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+
+}
+/* .testimonials{
+    overflow-y: scroll;
+    overflow-x: hidden;
+} */
+.testimonials{
+    /* background-color: red; */
+}
+
+/* .enableScroll{
+    overflow-y: hidden;
+    overflow-x:scroll;
+} */
+
+.testimonials-section, .testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* overflow-x: scroll; */
+    /* overflow-y: hidden; */
+}
+.testimonial{
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+}
+.quoteImage{
+    width:60px;
+}
+.testimonials-section{
+    gap: 3vh;
+}
+.testimonials{
+    gap: 4vh;
+    padding: 0 4vw 6vh 4vw;
+
+}
+.testimonial{
+    padding: 50px;
+    position: relative;
+    gap: 5vh;
+}
+.testimonial::before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -10;
+    content: '';
+    /* background: linear-gradient(180deg, rgba(38, 53, 155, 0) 0%, rgba(0, 80, 183, 0.2) 100%), linear-gradient(180deg, rgba(130, 70, 170, 0.2) 0%, rgba(130, 70, 170, 0) 100%);
+    background: rgb(0,0,0,0.6); */
+    background: #ECECEC;
+    box-shadow: 0px 527px 211px rgba(0, 0, 0, 0.01), 0px 296px 178px rgba(0, 0, 0, 0.05), 0px 132px 132px rgba(0, 0, 0, 0.09), 0px 33px 72px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+    backdrop-filter: blur(12px);
+    border-radius: 12px;    
+}
+.quoteDetail{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3em;
+
+}
+.testimonial-detail{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    text-transform: capitalize;    
+}
+.testimonial-author{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    text-transform: capitalize; 
+    text-align: right;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 470px) {
+    .testimonial{
+        padding: 35px;
+        background-image: url(../../assets/images/quotesDim.svg);
+        background-repeat: no-repeat;
+        background-position:10px 20px ;
+
+    }
+    .testimonial-author{
+        opacity: 0.7;
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .testimonial-detail{
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 1px;
+        opacity: 0.7;
+    }
+    .quoteImage{
+        /* flex: none;
+        position: relative;
+        align-items: center;
+        opacity: 50%; */
+        display: none;
+    }
+
+}
