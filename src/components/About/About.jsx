@@ -10,7 +10,7 @@ import {
 
 function About() {
   return (
-    <section id="about">
+    <section className= "about" id="about">
       <div className="posts">
         <div className="main_image_bg">
           <img src={PaithrikaBG} alt="" className="bg" />

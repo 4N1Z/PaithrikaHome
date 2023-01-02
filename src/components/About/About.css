@@ -1,12 +1,16 @@
+.about{
+    min-height: 100vh;
+}
 .posts {
 
     background-color: #CC281E;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    
+    min-height: 100vh;
+  
 }
+
 
 .main_image_bg {
     position: absolute;

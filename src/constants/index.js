@@ -41,27 +41,34 @@ export const stats = [
     },
   ];
 
+
+
+  export const project_images = {
+    ongoing:"url('https://w0.peakpx.com/wallpaper/747/327/HD-wallpaper-tanjiro-pic-fan-art-anime-demon-slayer-kimetsu-no-yaiba.jpg')",
+    upcoming : "url('https://www.nawpic.com/media/2020/zenitsu-nawpic-68.jpg')",
+    finished : "url('https://assets.puzzlefactory.pl/puzzle/439/559/original.jpg')"
+}
+
   export const sampleTestimonials= [
     {
-      detail : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      id : "Aniz, "
+      detail : "From my experience of taking possession of my villa at Pranamam, I can emphatically state that Paithrika is the place to go if anyone is looking to own one. Reputed, reliable and with a great tract record, Paithrika can be trusted for its commitment towards quality and timely delivery.",
+      id : "MAHESH M NAIR",
+      designation : "Joint Director ",
+      post : "STPI, Technopark"
     },
     {
-      detail : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      id : "I"
+      detail : "Paithrika extended its dedicated team's skill and support for maintenance or modifications even after the promised support term which makes you stand out. All the best for your future endeavors and thanks for delivering our <b> customized <b/> dream home much earlier than promised, with uncompromised quality and no hidden charge.",
+      id : "Aravind Nataraja Pillai ",
+      designation : "Joint Director ",
+      post : "Allianz"
     },
     {
-      detail : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      id : "Love"
+      detail : "My professional stint in Trivandrum gave me the confidence to invest in a home away from Delhi. My search ended when I met Paithrika team. To monitor the progress of your home sitting thousands of miles away is practically impossible. They made it so very easy that I bought one more villa from them. Thank you.",
+      id: "Vineet kapoor. ",
+      designation : "Software engineer",
+      post : "Delhi"
     },
-    {
-      detail : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      id : "You"
-    },
-    {
-      detail : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      id : "!"
-    },
+    
   ]
 
 

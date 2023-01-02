@@ -1,6 +1,4 @@
-section{
-    min-height: 100vh;
-}
+/*  */
 .textBox{
     display: subgrid;
     text-align: center;
@@ -45,15 +43,18 @@ section{
     align-items:center;
 
 }
-/* .contactForm{
-    display: flex;
-    flex-direction: column;
-    padding:2em;
-} */
+.contactForm{
+    /* display: flex;
+    flex-direction: column; */
+    padding:1.4em;
+}
 .name,.email,.phoneNum,.message{
     padding: 1em;
-
     width: 100%;
+
+}
+.messagebar{
+    height: 150px;
 }
 .grpEP{
     display: grid;

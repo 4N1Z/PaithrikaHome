@@ -1,4 +1,17 @@
+body,.projectMainContainer{
+    min-height: 100vh;
+}
 
+.titleProject{
+    text-align: center;
+    font-weight: 600;
+    color: #CC281E;
+    font-size:2em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 2em;
+    
+}
 .projects-container{
     width: 100vw;
     height: 80vh;
@@ -17,6 +30,7 @@
     background-position: center;
 
 }
+
 .black-overlay{
     display: flex;
     place-content: center;
@@ -33,7 +47,17 @@
     margin-bottom: .5em;
 }
 .project-bold{
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 1.75em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.projectSubtitle{
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
 }
 #ongoing-project:hover {
     width: 50%;
