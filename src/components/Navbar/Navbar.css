@@ -1,26 +1,63 @@
-body{
-    /* background-color:red;
-    width: 100%;
-    overflow: hidden;
-     */
-     /* position: fixed;
-     top: 0%; */
-     z-index: 100;
 
-}
-.bgImageTran{
-    background-image: url("../../assets/images/logo_black.png");
-    z-index: 10;
-    
-
-}
 .navbar{
-
+    z-index: 10;
     width: 100%;
     padding-right: 2em;
     color: rgba(42, 41, 41, 0);
     background-color: #f3f3f3c2;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.5);
     /* backdrop-filter: blur(24px); */
+    /* position: fixed;
+    top: 0; */
 
+}
+.navTitle{
+    position: relative;
+    text-decoration: none;
+    /* color: rgba(36, 36, 36, 0.9); */
+}
+
+.navTitle::after{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #CC281E;;
+    transition: all 0.5s;
+    font-weight: 600;
+
+}
+/* IF you want color */
+.navTitle:hover {
+    width: 100%;
+    font-weight: 600;
+    color: #CC281E;
+}
+/* If you want color underline */
+.navTitle:hover::after {
+    width: 100%;
+    font-weight: 600;
+    color: #CC281E;
+}
+
+.mobileTitle{
+    color: #FCD2D2;
+    font-weight: 500;
+
+}
+
+.mobileTitle:hover{
+    color: #f4f4f4;
+    font-weight: 600;
+
+}
+
+@media (max-width:640px) {
+    nav{
+        /* position: none; */
+        top: none;
+    }
+    
 }

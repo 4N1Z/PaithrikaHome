@@ -1,0 +1,121 @@
+#OneStop{
+    min-height: fit-content;
+}
+
+.onebg{
+    padding-top: 12em;
+    position: absolute;
+    width: 45%;
+    /* right: 0; */
+    z-index: -20;
+    /* opacity: 50; */
+}
+.rowMain-container {
+    padding: 30px;
+}
+.titleOneStop{
+    text-align: center;
+    font-weight: 600;
+    color: #CC281E;
+    font-size:2em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    /* margin: 20px; */
+    margin:0 2.625em 2.625em 0;
+    padding: 20px;
+    width: 500px;
+    min-height: 100px;
+    display: grid;
+    grid-template-rows: 20px 25px 1fr 50px;
+    border-radius: 6px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
+}
+
+.card__link{
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+.card__title {
+    grid-row: 2/2;
+    font-weight: 600;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.75em;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+}
+
+
+
+/* CARD BACKGROUNDS */
+.card-bg {
+    background-color: linear-gradient(#000000ef, #000000);
+  
+    /* z-index: 40; */
+}
+.card-1 {
+    background-image: url(../../assets/images/toBeDeleted/2.png);
+
+
+    background-image: url(../../assets/images/main/D3-D8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: fit-content;
+}
+
+
+
+.card-2 {
+    background-image: url(../../assets/images/main/A5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: fit-content;
+}
+
+.card-3 {
+    background-image: url(../../assets/images/main/A6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: fit-content;
+}
+
+.card-4 {
+    background-image: url(../../assets/images/main/D10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: fit-content;
+}
+
+/* .card-5 {
+    background: radial-gradient(#f588d8, #c0a3e5);
+  }
+   */
+/* RESPONSIVE */
+
+@media (max-width: 1600px) {
+    .cards {
+        justify-content: center;
+    }
+}

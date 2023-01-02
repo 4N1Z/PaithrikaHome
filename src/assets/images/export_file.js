@@ -19,6 +19,8 @@ import facebook from "./facebook.svg"
 import youtube from "./Youtube.svg"
 import logoName from "./logoName.svg"
 import footerLogo from "./footerLogo.svg"
+import upArrow from "./up-arrow.webp"
+import oneStopLogo from "./OnestopLogo.svg"
 
 export {
     logo,   
@@ -41,10 +43,8 @@ export {
     facebook,
     linkedin,
     instagram,
-    footerLogo
-
-
-
-
+    footerLogo,
+    upArrow,
+    oneStopLogo
 
 };
