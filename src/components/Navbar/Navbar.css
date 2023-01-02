@@ -42,6 +42,18 @@
     color: #CC281E;
 }
 
+.mobileTitle{
+    color: #FCD2D2;
+    font-weight: 500;
+
+}
+
+.mobileTitle:hover{
+    color: #f4f4f4;
+    font-weight: 600;
+
+}
+
 @media (max-width:640px) {
     nav{
         /* position: none; */

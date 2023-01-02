@@ -67,10 +67,14 @@ function Navbar() {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium uppercase cursor-pointer text-[24px]
-                ${index === navLinks.length - 1 ? "mb-40" : "mb-6"} text-white`}
+                className={`font-poppins font-normal uppercase cursor-pointer text-[24px]
+                ${index === navLinks.length - 1 ? "mb-40" : "mb-6"} text-white  `}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <div className= "mobileTitle">
+                 <a
+                 onClick={() => setToggle((prev) => !prev)} 
+                 href={`#${nav.id}`}>{nav.title}</a>
+                </div>
               </li>
             ))}
           </ul>
