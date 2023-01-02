@@ -1,3 +1,3 @@
 # PaithrikaHome
 
-https://paithrika-homes-test-web--pr31-aniz-test-k6lq6ayh.web.app
+https://paithrika-homes-test-web--pr33-aniz-test-iex1guoy.web.app/
