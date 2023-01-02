@@ -81,15 +81,21 @@
 .list_items {
     display: inline-grid;
     /* flex-direction: row; */
-    font-size: 1.23em;
+    gap: 0.3em;
+    text-transform: capitalize;
+    /* padding-left: 1.84em; */
+    justify-content: start;
+
+
+}
+.itemName{
+    font-size: 1.2em;
     font-weight: 400;
     gap: 0.3em;
-    padding-left: 1.84em;
-    justify-content: start;
+    text-transform: capitalize;
+    /* padding-left: 1.84em; */
     font-weight: 500;
-    /* font-size: 32px; */
-    letter-spacing: 0.125em;
-
+    opacity: 70%;
 }
 
 .list_subHeading {

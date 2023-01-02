@@ -70,7 +70,7 @@ function App() {
       </div> */}
 
       <Navbar />
-      {/* <Season /> */}
+      <Season />
       <Home />
       <About />
       <OneStop />

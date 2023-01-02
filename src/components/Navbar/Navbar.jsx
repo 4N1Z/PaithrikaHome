@@ -29,7 +29,7 @@ function Navbar() {
   return (
     <nav id = "nav" className="w-full flex py-5 justify-between items-center navbar">
       <div className="sn:flex justify-end items-center flex-1">
-        <img src={logo} alt="paithrika Home" className="w-[124px] h-[32px] " />
+        <a href="#home"><img src={logo} alt="paithrika Home" className="w-[124px] h-[32px] " /></a>
         <ul className="list-none sn:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
             <li

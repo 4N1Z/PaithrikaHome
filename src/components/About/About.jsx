@@ -34,7 +34,7 @@ function About() {
               {aboutDetails.map((take) => (
                 <div className="list_items">
                   <img src={take.logo} alt="" />
-                  <p> {take.id} </p>
+                  <p className="itemName"> {take.id} </p>
                 </div>
               ))}
             </div>
