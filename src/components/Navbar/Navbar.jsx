@@ -6,25 +6,25 @@ import { useState } from "react";
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
-// Header fixed
+// Header not fixed
 
-  const selectHeader = document.querySelector('#nav');
-  if (selectHeader) {
-    let headerOffset = selectHeader.offsetTop;
-    let nextElement = selectHeader.nextElementSibling;
+  // const selectHeader = document.querySelector('#nav');
+  // if (selectHeader) {
+  //   let headerOffset = selectHeader.offsetTop;
+  //   let nextElement = selectHeader.nextElementSibling;
 
-    const headerFixed = () => {
-      if ((headerOffset - window.scrollY) <= 0) {
-        selectHeader.classList.add('sticked');
-        if (nextElement) nextElement.classList.add('sticked-header-offset');
-      } else {
-        selectHeader.classList.remove('sticked');
-        if (nextElement) nextElement.classList.remove('sticked-header-offset');
-      }
-    }
-    window.addEventListener('load', headerFixed);
-    document.addEventListener('scroll', headerFixed);
-  }
+  //   const headerFixed = () => {
+  //     if ((headerOffset - window.scrollY) <= 0) {
+  //       selectHeader.classList.add('sticked');
+  //       if (nextElement) nextElement.classList.add('sticked-header-offset');
+  //     } else {
+  //       selectHeader.classList.remove('sticked');
+  //       if (nextElement) nextElement.classList.remove('sticked-header-offset');
+  //     }
+  //   }
+  //   window.addEventListener('load', headerFixed);
+  //   document.addEventListener('scroll', headerFixed);
+  // }
 
   return (
     <nav id = "nav" className="w-full flex py-5 justify-between items-center navbar">
@@ -34,15 +34,16 @@ function Navbar() {
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className={`font-poppins font-semibold uppercase cursor-pointer text-[18px] ${
+              className={`font-poppins font-medium uppercase cursor-pointer text-[18px] ${
                 index === navLinks.length - 1 ? "mr-0" : "mr-8"
               } text-black`}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a className ="navTitle" href={`#${nav.id}`}> {nav.title} </a>
             </li>
           ))}
         </ul>
       </div>
+
 
       {/* for mobile view */}
 

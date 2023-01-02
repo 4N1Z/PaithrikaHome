@@ -73,10 +73,10 @@ function App() {
       {/* <Season /> */}
       <Home />
       <About />
+      <OneStop />
       <Projects />
       <Testimonials />
       <Contact />
-      <OneStop />
       <Footer />
 
       <a href="#" class="scroll-top d-flex justify-content-center">

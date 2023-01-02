@@ -1,7 +1,6 @@
 
 .navbar{
     z-index: 10;
-
     width: 100%;
     padding-right: 2em;
     color: rgba(42, 41, 41, 0);
@@ -12,11 +11,41 @@
     top: 0; */
 
 }
+.navTitle{
+    position: relative;
+    text-decoration: none;
+    /* color: rgba(36, 36, 36, 0.9); */
+}
+
+.navTitle::after{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #CC281E;;
+    transition: all 0.5s;
+    font-weight: 600;
+
+}
+/* IF you want color */
+.navTitle:hover {
+    width: 100%;
+    font-weight: 600;
+    color: #CC281E;
+}
+/* If you want color underline */
+.navTitle:hover::after {
+    width: 100%;
+    font-weight: 600;
+    color: #CC281E;
+}
+
 @media (max-width:640px) {
     nav{
         /* position: none; */
         top: none;
-
     }
     
 }

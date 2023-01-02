@@ -1,9 +1,28 @@
-#OneStop{
-    min-height: fit-content;
+.OneStopDiv{
+    /* padding: 10px;
+    background-image: url(../../assets/images/OnestopLogo.svg);
+    background-repeat: no-repeat; */
 
+}
+.onebg{
+    padding-top: 12em;
+    position: absolute;
+    width: 45%;
+    /* right: 0; */
+    z-index: -20;
+    /* opacity: 50; */
 }
 .rowMain-container {
     padding: 30px;
+}
+.titleOneStop{
+    text-align: center;
+    font-weight: 600;
+    color: #CC281E;
+    font-size:2em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 1em;
 }
 
 /* HEADING */
@@ -40,15 +59,17 @@
 }
 
 .card {
-    margin: 20px;
+    /* margin: 20px; */
+    margin:0 2.625em 2.625em 0;
     padding: 20px;
     width: 500px;
-    min-height: 200px;
+    min-height: 100px;
     display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
-    border-radius: 10px;
+    grid-template-rows: 20px 25px 1fr 50px;
+    border-radius: 6px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
+    border-radius: 5px;
 }
 
 .card:hover {
@@ -103,6 +124,8 @@
 /* CARD BACKGROUNDS */
 .card-bg {
     background-color: linear-gradient(#000000ef, #000000);
+    background-image: url(../../assets/images/toBeDeleted/2.png);
+  
     /* z-index: 40; */
 }
 .card-1 {
