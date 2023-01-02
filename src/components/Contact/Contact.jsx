@@ -29,7 +29,7 @@ function Contact() {
             </div>
             <div className="message">
               <label>Message</label>
-              <textarea required></textarea>
+              <textarea className="messagebar" required></textarea>
             </div>
           </div>
           <a href="https://linktr.ee/anizbn">

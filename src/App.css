@@ -21,7 +21,9 @@ body::-webkit-scrollbar{
   margin: 0;
   padding: 0;
 }
-
+section{
+  min-height: 100vh;
+}
 /* 
 
 #root {

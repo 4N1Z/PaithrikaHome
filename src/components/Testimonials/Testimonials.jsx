@@ -2,24 +2,29 @@ import React from "react";
 import "./Testimonials.css";
 import "../../App.css";
 import { sampleTestimonials } from "../../constants/index.js";
-import { quotes,quotes2 } from "../../assets/images/export_file";
+import { quotes, quotes2 } from "../../assets/images/export_file";
 
 function Testimonials() {
   return (
-    <div className="enableScroll">
-      <h1 class="title">Testimonials</h1>
-      <div class="testimonials">
-        {sampleTestimonials.map((test) => (
-          <div class="testimonial">
-            <div className="quoteDetail">
+    <section id="testimonialsSection">
+      <div className="enableScroll">
+        <h1 class="titleTestimonial">Testimonials</h1>
+        <div class="testimonials">
+          {sampleTestimonials.map((test) => (
+            <div class="testimonial">
+              <div className="quoteDetail">
                 <img className="quoteImage" src={quotes} alt="" />
-                <p className="testimonial-detail">{test.detail}</p>
+                <p className="testimonial-detail"> {test.detail} </p>
+              </div>
+              <div class="testimonial-author">
+                <p> {test.id} </p>
+                <span className="authorDetails">{test.designation} <br/> {test.post}</span>
+              </div>
             </div>
-            <p class="testimonial-author">{test.id}</p>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 
