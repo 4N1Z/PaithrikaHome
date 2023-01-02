@@ -6,10 +6,10 @@ import Navbar from "./components/Navbar/Navbar";
 import styles from "./style.js";
 import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
-import Brands from "./components/Brands/Brands";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Season from "./components/Season/Season";
 
 function App() {
   return (
@@ -21,8 +21,8 @@ function App() {
       <Navbar />
         </div>
       </div> */}
-      
       <Navbar />
+      <Season/>
       <Home />
       <About />
       <Projects />
