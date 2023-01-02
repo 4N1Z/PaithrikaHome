@@ -1,16 +1,13 @@
 import React from "react";
 import "./About.css";
 import "../../App.css";
-import {
-  about,
-  logoBlack,
-  PaithrikaBG,
-  home_logo,
-} from "../../assets/images/export_file";
+import { about,PaithrikaBG} from "../../assets/images/export_file";
+import {aboutDetails } from "../../constants/index";
+
 
 function About() {
   return (
-    <section className= "about" id="about">
+    <section className="about" id="about">
       <div className="posts">
         <div className="main_image_bg">
           <img src={PaithrikaBG} alt="" className="bg" />
@@ -31,24 +28,17 @@ function About() {
                 </p>
               </div>
             </div>
+
             <div className="list_of_items">
               <h1 className="list_heading">What We do </h1>
-              <div className="list_items">
-                <img src={home_logo} alt="" />
-                <p> BUILDING </p>
-              </div>
-              <div className="list_items">
-                <img src={home_logo} alt="" />
-                <p> BUILDING </p>
-              </div>
-              <div className="list_items">
-                <img src={home_logo} alt="" />
-                <p> BUILDING </p>
-              </div>
-              <div className="list_items">
-                <img src={home_logo} alt="" />
-                <p> BUILDING </p>
-              </div>
+
+              {aboutDetails.map((take)=>(
+                  <div className="list_items">
+                  <img src={take.logo} alt="" />
+                  <p> {take.id} </p>
+                  </div>
+              ))}
+
             </div>
           </div>
         </div>

@@ -22,8 +22,6 @@ function Home() {
                 the process.
               </p>
             </div>
-
-      
           </div>
 
           <div className="rightBox">
@@ -31,34 +29,30 @@ function Home() {
               <img className="homePic" src={homePic} alt="home pic" />
             </div>
           </div>
-          
         </div>
         <div className="counterContainer">
-              <div className="counter">
-                <h1 className="countNumber">24+</h1>
-                <h5 className="countTitle">
-                 
-                  Works <br />
-                  Completed
-                </h5>
-              </div>
-              <div className="counter">
-                <h1 className="countNumber">24+</h1>
-                <h5 className="countTitle">
-                 
-                  Works <br />
-                  Completed
-                </h5>
-              </div>
-              <div className="counter">
-                <h1 className="countNumber">24+</h1>
-                <h5 className="countTitle">
-              
-                  Works <br />
-                  Completed
-                </h5>
-              </div>
-            </div>
+          <div className="counter">
+            <h1 className="countNumber">24+</h1>
+            <h5 className="countTitle">
+              Works <br />
+              Completed
+            </h5>
+          </div>
+          <div className="counter">
+            <h1 className="countNumber">24+</h1>
+            <h5 className="countTitle">
+              Works <br />
+              Completed
+            </h5>
+          </div>
+          <div className="counter">
+            <h1 className="countNumber">24+</h1>
+            <h5 className="countTitle">
+              Works <br />
+              Completed
+            </h5>
+          </div>
+        </div>
       </div>
     </section>
   );

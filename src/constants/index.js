@@ -39,6 +39,29 @@ export const stats = [
   },
 ];
 
+
+import { home_logo } from "../assets/images/export_file";
+export const aboutDetails = [
+
+  {
+    id : "Building",
+    logo : home_logo
+  },
+  {
+    id : "Building",
+    logo : home_logo
+  },
+  {
+    id : "Building",
+    logo : home_logo
+  },
+  {
+    id : "Building",
+    logo : home_logo
+  },
+]
+
+
 export const project_images = {
   ongoing:
     "url('https://w0.peakpx.com/wallpaper/747/327/HD-wallpaper-tanjiro-pic-fan-art-anime-demon-slayer-kimetsu-no-yaiba.jpg')",
@@ -46,6 +69,7 @@ export const project_images = {
   finished:
     "url('https://assets.puzzlefactory.pl/puzzle/439/559/original.jpg')",
 };
+
 
 export const sampleTestimonials = [
   {

@@ -21,16 +21,15 @@ function App() {
       <Navbar />
         </div>
       </div> */}
+      
       <Navbar />
       <Season/>
       <Home />
       <About />
       <Projects />
-      {/* <Brands /> */}
       <Testimonials />
       <Contact />
       <Footer />
-      {/* <HomeTest/> */}
     </div>
   );
 }
