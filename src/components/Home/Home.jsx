@@ -23,7 +23,17 @@ function Home() {
               </p>
             </div>
 
-            <div className="counterContainer">
+      
+          </div>
+
+          <div className="rightBox">
+            <div className="Gallery">
+              <img className="homePic" src={homePic} alt="home pic" />
+            </div>
+          </div>
+          
+        </div>
+        <div className="counterContainer">
               <div className="counter">
                 <h1 className="countNumber">24+</h1>
                 <h5 className="countTitle">
@@ -49,14 +59,6 @@ function Home() {
                 </h5>
               </div>
             </div>
-          </div>
-
-          <div className="rightBox">
-            <div className="Gallery">
-              <img className="homePic" src={homePic} alt="home pic" />
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
