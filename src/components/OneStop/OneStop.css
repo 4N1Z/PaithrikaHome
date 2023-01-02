@@ -1,9 +1,7 @@
-.OneStopDiv{
-    /* padding: 10px;
-    background-image: url(../../assets/images/OnestopLogo.svg);
-    background-repeat: no-repeat; */
-
+#OneStop{
+    min-height: fit-content;
 }
+
 .onebg{
     padding-top: 12em;
     position: absolute;
@@ -24,33 +22,6 @@
     text-transform: uppercase;
     padding: 1em;
 }
-
-/* HEADING */
-
-.rowHeading {
-    text-align: center;
-}
-
-.heading__title {
-    font-weight: 600;
-}
-
-.heading__credits {
-    margin: 10px 0px;
-    color: #888888;
-    font-size: 25px;
-    transition: all 0.5s;
-}
-
-.heading__link {
-    text-decoration: none;
-}
-
-.heading__credits .heading__link {
-    color: inherit;
-}
-
-/* CARDS */
 
 .cards {
     display: flex;
@@ -73,62 +44,40 @@
 }
 
 .card:hover {
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
     transform: scale(1.01);
 }
 
-.card__link,
-.card__exit,
-.card__icon {
+.card__link{
     position: relative;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.9);
 }
 
-.card__link::after {
-    position: absolute;
-    top: 25px;
-    left: 0;
-    content: "";
-    width: 0%;
-    height: 3px;
-    background-color: rgba(255, 255, 255, 0.6);
-    transition: all 0.5s;
-}
-
-.card__link:hover::after {
-    width: 100%;
-}
-
-.card__exit {
-    grid-row: 1/2;
-    justify-self: end;
-}
-
-.card__icon {
-    grid-row: 2/3;
-    font-size: 30px;
-}
 
 .card__title {
-    grid-row: 3/4;
-    font-weight: 400;
+    grid-row: 2/2;
+    font-weight: 600;
     color: #ffffff;
+    font-weight: 400;
+    font-size: 1.75em;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
 }
 
-.card__apply {
-    grid-row: 4/5;
-    align-self: center;
-}
+
 
 /* CARD BACKGROUNDS */
 .card-bg {
     background-color: linear-gradient(#000000ef, #000000);
-    background-image: url(../../assets/images/toBeDeleted/2.png);
   
     /* z-index: 40; */
 }
 .card-1 {
+    background-image: url(../../assets/images/toBeDeleted/2.png);
+
 
     background-image: url(../../assets/images/main/D3-D8.jpg);
     background-repeat: no-repeat;
