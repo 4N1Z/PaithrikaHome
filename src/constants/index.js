@@ -60,6 +60,18 @@ export const aboutDetails = [
     logo : home_logo
   },
 ]
+// import {} from "../assets/images/export_file"
+export const homeImages = [
+  {
+    src: "https://loremflickr.com/320/240"
+  },
+  {
+    src:"https://loremflickr.com/320/240"
+  },
+  {
+    src:"https://loremflickr.com/320/240"
+  },
+];
 
 
 export const project_images = {

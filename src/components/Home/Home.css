@@ -7,17 +7,29 @@
     flex-direction: row;
     justify-content: center;
 }
+/* Carousel{
+    border: none;
+} */
+/* .homePic{
+    width:25%;
+} */
+/* Carousel .slide-wrapper{
+    width: 50%;
+}
+carousel .thumb{
+    display: none;
+} */
 
 .mainContainer{
     display: flex;
-    flex-direction: row;
-    padding-top: 6rem;
+    /* flex-direction: row; */
+    /* padding-top: 6rem; */
     margin: 4%;
-    grid-gap: 5em;
+    gap: 20vh;
 }
-.leftBox{
+/* .leftBox{
     padding: 10px;
-}
+} */
 
 .heading{
     display: flex;
