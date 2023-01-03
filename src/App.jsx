@@ -69,9 +69,9 @@ function App() {
         </div>
       </div> */}
 
-      <Navbar />
+<section><Navbar />
       <Season />
-      <Home />
+      <Home /></section>
       <About />
       <OneStop />
       <Projects />

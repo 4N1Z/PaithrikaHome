@@ -8,6 +8,7 @@ font-family: 'Poppins', sans-serif; */
 @tailwind components;
 @tailwind utilities;
 
+
 body{
 
   font-family: 'Poppins', sans-serif; 
@@ -24,10 +25,25 @@ body::-webkit-scrollbar{
   margin: 0;
   padding: 0;
 }
+
+/*--------------------------------------------------------------
+# section scroll
+--------------------------------------------------------------*/
+.App{
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+/* .scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}*/
 section{
   min-height: 100vh;
+  scroll-snap-align: center;
 }
-
+/*-----------------------------------*/
 /* Bottom-Top Button */
 .scroll-top{
 
