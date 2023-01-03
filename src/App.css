@@ -14,7 +14,7 @@ body{
   background-color: #F3F3F3;
   width: 100%;
   overflow-x: hidden;
-  /* min-height: 100vh; */
+  min-height: 100vh;
 }
 
 body::-webkit-scrollbar{

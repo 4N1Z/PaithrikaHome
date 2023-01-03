@@ -47,6 +47,7 @@
     color: #CC281E;
 }
 .subTitles{
+    
     font-size: 1.2em;
     padding-top: 1.3rem;
     /* padding-bottom: 5rem; */
@@ -63,9 +64,10 @@
 .countNumber,.countTitle{
     font-weight: 600;  
     text-align: center;
+
 }
 
-.countNumber{
+.countNumber,.purecounter{
     font-size: 3.75em;
     padding: 0.2em;
     color: #CC281E;
@@ -74,6 +76,7 @@
 .countTitle{
     font-size: 1.25em;
     text-transform: uppercase;
+    opacity: 70%;
 }
 
 @media(max-width:540px){

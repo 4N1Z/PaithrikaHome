@@ -8,7 +8,7 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
 // Header not fixed
 
-  // const selectHeader = document.querySelector('#nav');
+  // const selectHeader = document.querySelector('.navbar');
   // if (selectHeader) {
   //   let headerOffset = selectHeader.offsetTop;
   //   let nextElement = selectHeader.nextElementSibling;

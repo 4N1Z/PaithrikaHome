@@ -58,6 +58,7 @@ function App() {
 
   return (
     <div className="App">
+
       {/* Preloader added not woring ! */}
       {/* <div id="preloader"></div> */}
     
@@ -79,9 +80,12 @@ function App() {
       <Contact />
       <Footer />
 
-      <a href="#" class="scroll-top d-flex justify-content-center">
+              {/*        Bottom -top Arrow         */}
+
+      {/* <a href="#" class="scroll-top d-flex justify-content-center">
         <img src={upArrow} alt="" />
-      </a>
+      </a> */}
+
     </div>
   );
 }
