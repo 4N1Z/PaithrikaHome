@@ -70,9 +70,12 @@ function App() {
         </div>
       </div> */}
 
+
       <Navbar />
       {/* <Season /> */}
       <Home />
+      <Home />
+
       <About />
       <OneStop />
       <Projects />
