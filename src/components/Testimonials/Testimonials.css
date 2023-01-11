@@ -1,5 +1,5 @@
 .testimonialsSection{
-    /* max-height: 20vh; */
+    /* max-height: 100vh; */
 
 }
 
@@ -16,15 +16,15 @@
 }
 
 .testimonials-section, .testimonials{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
     
 }
 
 .testimonial{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .quoteImage{
@@ -34,17 +34,17 @@
     gap: 3vh;
 }
 .testimonials{
-    gap: 4vh;
-    padding: 0 4vw 6vh 4vw;
-    /* overflow-y: hidden; */
-    /* overflow-x: scroll; */
+    /* gap: 5vh; */
+    padding: 0 15vw 14vh 15vw;
+    overflow-y: hidden;
+    overflow-x: sc```````````````roll;
 }
 
 .testimonial{
     padding: 50px;
     position: relative;
     gap: 5vh;
-    /* border: 2em; */     
+    /* border: 2em;      */
 }
 
 .testimonial::before{
