@@ -11,9 +11,10 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Season from "./components/Season/Season";
+import Gallery from "./components/Gallery/Gallery";
 import OneStop from "./components/OneStop/OneStop";
-// import TestNav from "./components/Test_Nav/TestNav";
 
+// import TestNav from "./components/Test_Nav/TestNav";
 // const pure = new PureCounter();
 
 
@@ -76,6 +77,7 @@ function App() {
       <About />
       <OneStop />
       <Projects />
+      <Gallery />
       <Testimonials />
       <Contact />
       <Footer />
