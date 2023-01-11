@@ -82,9 +82,9 @@ function App() {
 
               {/*        Bottom -top Arrow         */}
 
-      {/* <a href="#" class="scroll-top d-flex justify-content-center">
+      <a href="#" class="scroll-top d-flex justify-content-center">
         <img src={upArrow} alt="" />
-      </a> */}
+      </a>
 
     </div>
   );
