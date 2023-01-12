@@ -7,12 +7,13 @@ import Navbar from "./components/Navbar/Navbar";
 import styles from "./style.js";
 import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
-import Testimonials from "./components/Testimonials/Testimonials";
+// import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Season from "./components/Season/Season";
 import Gallery from "./components/Gallery/Gallery";
 import OneStop from "./components/OneStop/OneStop";
+import Testimon from "./components/Testimon/Testimon";
 
 // import TestNav from "./components/Test_Nav/TestNav";
 // const pure = new PureCounter();
@@ -78,7 +79,8 @@ function App() {
       <OneStop />
       <Projects />
       <Gallery />
-      <Testimonials />
+      <Testimon/>
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
 
