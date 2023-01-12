@@ -6,6 +6,7 @@ import { quotes, quotes2 } from "../../assets/images/export_file";
 function Testimon() {
   return (
     <div className='testimonial-container'>
+      <div className='headingMain' style={{ color:'#CC281E'}}>Testimonials</div>
       <ul class="hs full no-scrollbar">
        {sampleTestimonials.map((item)=>(
         <li className="item">
@@ -13,7 +14,7 @@ function Testimon() {
             {item.detail}
           </p>
           <p className="user">
-            {item.id} <br />
+            <span className='user-name'>{item.id}</span> <br />
             {item.designation} <br />
             {item.post}
           </p>
