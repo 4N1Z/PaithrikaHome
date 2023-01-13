@@ -63,7 +63,7 @@ function Home() {
             </h5>
           </div>
           <div className="counter">
-            <h1 className="countNumber">24+</h1>````````
+            <h1 className="countNumber">24+</h1>
             <h5 className="countTitle">
               Works <br />
               Completed

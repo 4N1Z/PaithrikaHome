@@ -4,11 +4,19 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+/* Check overflow  */
+
+/* div,p {
+  outline : 2px solid green;
+} */
+ 
 
 body{
+
 
   font-family: 'Poppins', sans-serif; 
   background-color: #F3F3F3;
@@ -27,6 +35,9 @@ body::-webkit-scrollbar{
 section{
   min-height: 100vh;
 }
+
+
+/*  */
 
 /* Bottom-Top Button */
 .scroll-top{

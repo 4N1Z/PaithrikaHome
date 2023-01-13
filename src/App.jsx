@@ -72,7 +72,7 @@ function App() {
         </div>
       </div> */}
 
-      <Navbar />
+      <Navbar/>
       {/* <Season /> */}
       <Home />
       <About />
@@ -82,9 +82,9 @@ function App() {
       <Testimon/>
       {/* <Testimonials /> */}
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
 
-              {/*        Bottom -top Arrow         */}
+     {/*        Bottom -top Arrow         */}
       {/* This is working hopefullly */}
       <a href="#" class="scroll-top d-flex justify-content-center">
         <img src={upArrow} alt="" />

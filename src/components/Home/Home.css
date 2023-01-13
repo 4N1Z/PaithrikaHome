@@ -1,7 +1,7 @@
 .home{
 
     /* padding: 2em; */
-    /* overflow: hidden; */
+    overflow: hidden;
     /* min-height: 100vh; */
     display: flex;
     flex-direction: row;
@@ -29,7 +29,7 @@ carousel .thumb{
     /* flex-direction: row; */
     /* padding-top: 6rem; */
     margin: 4%;
-    gap: 20vh;
+    gap: 10vh;
 }
 /* .leftBox{
     padding: 10px;
@@ -38,15 +38,17 @@ carousel .thumb{
 .heading{
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
+    padding: 0.4rem;
 }
 
 .counterContainer{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr; */
+/* 
+    display: grid;
+    grid-template-columns: 1fr 2fr; */
+
     display: flex;
-    /* flex-direction: row; */
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .titles{
@@ -72,7 +74,7 @@ carousel .thumb{
 .counter{
     display: inline-flex;
     align-items: center;
-    padding: 3em;
+    /* padding: 3em; */
 
 
 }

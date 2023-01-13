@@ -12,7 +12,7 @@ function Contact() {
         </div>
 
         <div className="contactForms">
-          <div className="contactForm">
+          <form className="contactForm">
             <div className="name">
               <label>Name</label>
               <input type="text" required />
@@ -31,7 +31,7 @@ function Contact() {
               <label>Message</label>
               <textarea className="messagebar" required></textarea>
             </div>
-          </div>
+          </form>
           <a href="https://linktr.ee/anizbn">
             <button className="submitBtn">Send Message</button>
           </a>

@@ -9,7 +9,7 @@ function About() {
     <section className="about" id="about">
       <div className="posts">
         <div className="main_image_bg">
-          <img src={PaithrikaBG} alt="" className="bg" />
+          {/* <img src={PaithrikaBG} alt="" className="bg" /> */}
         </div>
         <h1 className="headingMain">About Us</h1>
 
@@ -23,7 +23,7 @@ function About() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
                   massa mi. Aliquam in hendrerit urna. Pellentesque sit amet
                   sapien fringilla, mattis ligula consectetur, ultrices mauris.
-                  Maecenas vitae mattis tellus.{" "}
+                  Maecenas vitae mattis tellus.
                 </p>
               </div>
             </div>
@@ -42,7 +42,6 @@ function About() {
         </div>
 
         <button className="contactbtn">
-          {" "}
           <a href="https://linktr.ee/anizbn">Contact</a>
         </button>
       </div>
