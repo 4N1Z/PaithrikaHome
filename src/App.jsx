@@ -74,7 +74,7 @@ function App() {
 
       <Navbar />
       {/* <Season /> */}
-      {/* <Home /> */}
+      <Home />
       <About />
       <OneStop />
       <Projects />
