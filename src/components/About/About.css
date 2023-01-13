@@ -1,5 +1,7 @@
 .about {
     min-height: 100vh;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s
 
 }
 

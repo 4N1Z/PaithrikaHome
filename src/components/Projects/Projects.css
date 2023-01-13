@@ -28,6 +28,7 @@ body,.projectMainContainer{
     color: white;
     background-color:rgba(0, 0, 0, 0.532) !important;
     background-position: center;
+   
 
 }
 
@@ -61,4 +62,20 @@ body,.projectMainContainer{
 }
 #ongoing-project:hover {
     width: 50%;
+ 
+}
+
+#ongoing-project #upcoming-project #finished-project{
+    
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+    
+}
+#ongoing-project:hover
+,#upcoming-project:hover,
+#finished-project:hover{
+    
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+    
 }

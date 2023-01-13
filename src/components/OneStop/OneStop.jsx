@@ -12,7 +12,7 @@ function OneStop() {
 
         <div class="rowMain-container">
           <div class="rowHeading"></div>
-          <div class="cards">
+          <div class="animate__animated animate__fadeIn cards">
             <div class="card card-1">
               <div className="card-bg"></div>
               <h2 class="card__title">Resale</h2>

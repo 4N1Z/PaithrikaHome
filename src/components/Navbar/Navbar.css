@@ -36,12 +36,15 @@
     width: 100%;
     font-weight: 600;
     color: #CC281E;
+    
 }
 /* If you want color underline */
 .navTitle:hover::after {
     width: 100%;
     font-weight: 600;
     color: #CC281E;
+    animation: zoomOut; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; 
 }
 
 .mobileTitle{

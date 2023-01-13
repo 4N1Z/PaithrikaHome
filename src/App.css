@@ -13,7 +13,7 @@ font-family: 'Poppins', sans-serif; */
 /* div,p {
   outline : 2px solid green;
 } */
- 
+
 
 body{
 
@@ -23,6 +23,8 @@ body{
   width: 100%;
   overflow-x: hidden;
   min-height: 100vh;
+
+  /* animation-duration: 20s;  */
 }
 
 body::-webkit-scrollbar{

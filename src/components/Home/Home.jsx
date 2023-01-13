@@ -23,14 +23,14 @@ function Home() {
         <div className="mainContainer">
           <div className="leftBox">
             <div className="heading">
-              <div className="titles">
+              <div  className="animate__animated animate__fadeIn titles">
                 <span className="title1">Building your</span>
                 <br />
                 <span className="title2">Dream Home</span>
                 <br />
                 <span className="title3">has never been easier</span>
               </div>
-              <p className="subTitles">
+              <p className="animate__animated animate__fadeIn subTitles">
                 We offer end-to-end services with our expert team of architects,
                 designers, and engineers that can help you with every step of
                 the process.
@@ -46,7 +46,7 @@ function Home() {
             </div>
           </div>
         </div >
-        <div  className="counterContainer">
+        <div  className="animate__animated animate__headShake counterContainer">
           <div className="counter">
             <h1 className="countNumber">24+</h1>
             {/* <span  data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="3" className="purecounter">0</span><span> +</span> */}
