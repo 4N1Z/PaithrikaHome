@@ -86,6 +86,9 @@
   background-color: #CC281E;
   padding-bottom: 2em;
 }
+.gallery::-webkit-scrollbar{
+  display: none;
+}
 .gallery{
   display: grid;
     grid-template-rows: minmax(98%, 90vh);
