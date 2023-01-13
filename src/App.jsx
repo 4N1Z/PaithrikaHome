@@ -74,7 +74,7 @@ function App() {
 
       <Navbar />
       {/* <Season /> */}
-      <Home />
+      {/* <Home /> */}
       <About />
       <OneStop />
       <Projects />
@@ -82,7 +82,7 @@ function App() {
       <Testimon/>
       {/* <Testimonials /> */}
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
 
               {/*        Bottom -top Arrow         */}
       {/* This is working hopefullly */}
