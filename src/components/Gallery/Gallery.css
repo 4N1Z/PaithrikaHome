@@ -60,13 +60,26 @@
 
 .page{
   display: grid;
-  /* width: 70vw; */
   height: 100%;
-  background-color: rgb(255, 166, 0);
+  /* background-color: rgb(255, 166, 0); */
   scroll-snap-align: center;
-  padding: 2em;
+  /* padding: 2em; */
   margin-left: 1em;
+
+  /* Grid property */
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: 50% 50% ;
+  justify-items: stretch;
+  align-items: center;
+  row-gap: .5em;
+  column-gap: .5em ;
 }
+.page>img{
+  object-fit: cover;
+  object-position: center;
+  max-height: 100%;
+}
+
 .gallery-container{
   display: flex;
   flex-direction: column;
@@ -82,4 +95,9 @@
     scroll-snap-type: x proximity;
     padding-bottom: calc(.75 * 20px);
     margin-bottom: calc(-.25 * 20px);
+}
+@media screen and (max-width : 450px){
+  .gallery{
+    grid-auto-columns: 90vw;
+  }
 }

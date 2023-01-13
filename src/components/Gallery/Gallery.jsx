@@ -29,15 +29,16 @@ function Gallery() {
             url: "https://picsum.photos/seed/hell/200/300",
             type: "photo wide",
             caption: "Something"
-        }, {
-            url: "https://picsum.photos/seed/lets/200",
-            type: "photo square",
-            caption: "Something"
-        }, {
-            url: "https://picsum.photos/seed/go/200",
-            type: "photo square",
-            caption: "Something"
-        }
+        }, 
+        // {
+        //     url: "https://picsum.photos/seed/lets/200",
+        //     type: "photo square",
+        //     caption: "Something"
+        // }, {
+        //     url: "https://picsum.photos/seed/go/200",
+        //     type: "photo square",
+        //     caption: "Something"
+        // }
     ]
     return (
         <div className='gallery-container'>
@@ -50,10 +51,26 @@ function Gallery() {
       ))}
       </div> */}
             <div className='gallery'>
-                    <div className="page page-one">Hello One</div>
-                    <div className="page page-two">Hello Two</div>
-                    <div className="page page-three">Hello Three</div>
-                    <div className="page page-four">Hello Four</div>
+                <div className="page page-one">
+                  {gallery_data.map((item)=>(
+                    <img src={item.url} alt="" />
+                  ))}
+                </div>
+                <div className="page page-two">
+                {gallery_data.map((item)=>(
+                    <img src={item.url} alt="" />
+                  ))}
+                </div>
+                <div className="page page-three">
+                {gallery_data.map((item)=>(
+                    <img src={item.url} alt="" />
+                  ))}
+                </div>
+                <div className="page page-four">
+                {gallery_data.map((item)=>(
+                    <img src={item.url} alt="" />
+                  ))}
+                </div>
             </div>
         </div>
     )
