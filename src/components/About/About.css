@@ -1,7 +1,6 @@
 .about {
     min-height: 100vh;
-    animation: bounce; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s
+   
 
 }
 
@@ -48,6 +47,8 @@
     padding-bottom: 2vh;
     padding-right: 5vw;
     z-index: 1;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s 
 }
 
 
@@ -69,6 +70,8 @@
     grid-template-columns: 3fr 3fr;
     gap: 6vw;
     align-content: space-between;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s 
 
 }
 

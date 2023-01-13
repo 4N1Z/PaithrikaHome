@@ -30,6 +30,9 @@
     padding-bottom: calc(.75 * var(--gutter));
     margin-bottom: calc(-.25 * var(--gutter));
 
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s 
+
   }
   
   .hs:before,
@@ -51,6 +54,7 @@
   
 .testimonial-bar:hover{
     transform :scale(1.009);
+    
 }
 
 .titleTestimon{

@@ -42,6 +42,9 @@
     flex-direction: column;
     align-items:center;
 
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s ;
+
 }
 .contactForm{
     /* display: flex;
