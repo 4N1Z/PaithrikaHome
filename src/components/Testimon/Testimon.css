@@ -6,9 +6,9 @@
 }
 
 .testimonial-container{
-  padding-top: 10vh;
-  padding-left: 10%;
-  min-height: 70vh;
+  padding-top: 5vh;
+  /* padding-left: 1%; */
+  min-height: 75vh;
   font-size: 0.74em;
 } 
 
@@ -23,13 +23,13 @@
     grid-template-columns: 2em;
     grid-template-rows: minmax(250px, 2fr);
     grid-auto-flow: column;
-    grid-auto-columns: calc(60% - var(--gutter) * 0.3);
+    grid-auto-columns: calc(55% - var(--gutter) * 0.3);
   
     overflow-x: scroll;
     scroll-snap-type: x proximity;
     padding-bottom: calc(.75 * var(--gutter));
-    
     margin-bottom: calc(-.25 * var(--gutter));
+
   }
   
   .hs:before,
@@ -63,6 +63,9 @@
   text-transform: uppercase;
 
 }
+.quoteImage{
+  width:60px;
+}
   
 .hs > li,
 .item {
@@ -90,20 +93,28 @@
 
 .user{
   font-style: normal;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-size: 1.3em;
   line-height: 35px;
   letter-spacing: 1px;
   text-transform: capitalize; 
   text-align: right;
+  font-weight: 600;
+  font-size: 18px;
   /* width: 100%; */
+}
+.user:hover{
+  color: #CC281E;
+
 }
   p.user{
     text-align: right;
     margin-left: auto;
+   
   }
   .user-name{
-    font-weight:600;
+    font-weight:400;
+   
 
   }
   .review{
@@ -118,13 +129,13 @@
 
   @media screen and (max-width: 640px){
     .hs{
-      grid: none;
+      /* grid: none; */
       grid-auto-flow: column;
-      grid-auto-columns: calc(60% + var(--gutter) * 10);
+      grid-auto-columns: calc(50% + var(--gutter) * 5);
       
     }
     .testimonial-bar{
-      background-image: url(../../assets/images/quotesDim.svg);
+      background-image: url(../../assets/images/quotesDim.svg),;
       background-repeat: no-repeat;
       background-position:10px 20px ;
       flex:none;
@@ -132,6 +143,11 @@
     .quoteImage{
       display: none;
 
+    }
+    .user{
+      opacity: 0.7;
+      font-size: 16px;
+      line-height: 32px;
     }
     /* .testimonial-container{
       padding-top: 10vh;
