@@ -22,10 +22,7 @@
     
 }
 
-.testimonial{
-    /* display: flex;
-    flex-direction: column; */
-}
+
 
 .quoteImage{
     width:60px;
@@ -36,8 +33,6 @@
 .testimonials{
     /* gap: 5vh; */
     padding: 0 15vw 14vh 15vw;
-    overflow-y: hidden;
-    overflow-x: sc```````````````roll;
 }
 
 .testimonial{
@@ -48,6 +43,7 @@
 }
 
 .testimonial::before{
+    
     position: absolute;
     top: 0;
     bottom: 0;
@@ -57,7 +53,7 @@
     content: '';
     /* background: linear-gradient(180deg, rgba(38, 53, 155, 0) 0%, rgba(0, 80, 183, 0.2) 100%), linear-gradient(180deg, rgba(130, 70, 170, 0.2) 0%, rgba(130, 70, 170, 0) 100%);
     background: rgb(0,0,0,0.6); */
-    background: #ECECEC;
+    background: #fefdfd;
     box-shadow: 0px 527px 211px rgba(0, 0, 0, 0.01), 0px 296px 178px rgba(0, 0, 0, 0.05), 0px 132px 132px rgba(0, 0, 0, 0.09), 0px 33px 72px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
     opacity: 0.8;
     /* backdrop-filter: blur(12px); */
@@ -85,7 +81,7 @@
     font-size: 20px;
     line-height: 35px;
     letter-spacing: 1px;
-    text-transform: capitalize;    
+    text-transform: capitalize; 
 }
 .testimonial-author{
     font-style: normal;

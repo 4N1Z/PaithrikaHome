@@ -5,22 +5,34 @@ import { quotes, quotes2 } from "../../assets/images/export_file";
 
 function Testimon() {
   return (
+
     <div className='testimonial-container'>
-      <div className='headingMain' style={{ color:'#CC281E'}}>Testimonials</div>
-      <ul class="hs full no-scrollbar">
-       {sampleTestimonials.map((item)=>(
-        <li className="item">
-          <p className="review">
-            {item.detail}
-          </p>
-          <p className="user">
-            <span className='user-name'>{item.id}</span> <br />
-            {item.designation} <br />
-            {item.post}
-          </p>
-        </li>
-       ))}
-      </ul>
+      <h1 className='titleTestimon'>Testimonials</h1>
+
+      <div className="content-container">
+        <ul class="hs full no-scrollbar">
+          
+          {/*  */}
+        {sampleTestimonials.map((item)=>(
+          <div className='testimonial-bar'>
+          <li className="item">
+            <div className="quotes-Testimonial">
+            <img className="quoteImage" src={quotes} alt="" />
+
+            <p className="review">
+              {item.detail}
+            </p>
+            <br /></div>
+            <p className="user">
+              <span className='user-name'>{item.id}</span> <br />
+              {item.designation} <br />
+              {item.post}
+            </p>
+          </li>
+          </div>
+        ))}
+        </ul>
+      </div>
     </div>
   )
 }

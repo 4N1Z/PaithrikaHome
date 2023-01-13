@@ -1,21 +1,34 @@
 :root {
     --gutter: 20px;
   }
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 .testimonial-container{
-  /* margin:0 auto;
-  width: 70vw; */
-}  
+  padding-top: 10vh;
+  padding-left: 10%;
+  min-height: 70vh;
+  font-size: 0.74em;
+} 
+
+.content-container{
+  padding: 100px 0 100px 0;
+}
+
 .hs {
+
     display: grid;
-    grid-gap: calc(var(--gutter) / 2);
+    grid-gap: 30px;
     grid-template-columns: 2em;
-    grid-template-rows: minmax(150px, 1fr);
+    grid-template-rows: minmax(250px, 2fr);
     grid-auto-flow: column;
-    grid-auto-columns: calc(80% - var(--gutter) * 2);
+    grid-auto-columns: calc(60% - var(--gutter) * 0.3);
   
     overflow-x: scroll;
     scroll-snap-type: x proximity;
     padding-bottom: calc(.75 * var(--gutter));
+    
     margin-bottom: calc(-.25 * var(--gutter));
   }
   
@@ -24,28 +37,106 @@
     content: '';
     width: 10px;
   }
+
+.testimonial-bar{
+  background-image: url(../../assets/images/quotesDim.svg);
+
+  content: '';
+  background: #fefdfd;
+  /* opacity: 0.8; */
+  backdrop-filter: blur(12px);
+  border-radius: 12px; 
+  /* border: 3em #CC281E; */
+}
+  
+.testimonial-bar:hover{
+    transform :scale(1.009);
+}
+
+.titleTestimon{
+  padding:2em 0 2em 0;
+  text-align: center;
+  font-weight: 700;
+  color: #CC281E;
+  font-size:2.4em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+}
   
 .hs > li,
 .item {
+
+  /* background-image: url(); */
  
   scroll-snap-align: center;
-  padding: calc(var(--gutter) / 2 * 1.5);
+  padding: calc(var(--gutter) / 2 * 2.2);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #fff;
-  border-radius: 8px;
-}
-  
-.no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
 
+
+}
+.quotes-Testimonial{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+  gap: 20px;
+
+}
+
+
+.user{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 35px;
+  letter-spacing: 1px;
+  text-transform: capitalize; 
+  text-align: right;
+  /* width: 100%; */
+}
   p.user{
     text-align: right;
     margin-left: auto;
   }
   .user-name{
-    font-weight: bold;
+    font-weight:600;
+
+  }
+  .review{
+    font-style: normal;
+    font-weight: 400;
+    font-size:1.3em;
+    line-height: 35px;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+  }
+
+
+  @media screen and (max-width: 640px){
+    .hs{
+      grid: none;
+      grid-auto-flow: column;
+      grid-auto-columns: calc(60% + var(--gutter) * 10);
+      
+    }
+    .testimonial-bar{
+      background-image: url(../../assets/images/quotesDim.svg);
+      background-repeat: no-repeat;
+      background-position:10px 20px ;
+      flex:none;
+    }
+    .quoteImage{
+      display: none;
+
+    }
+    /* .testimonial-container{
+      padding-top: 10vh;
+      padding-left: 30px;
+      min-height: 70vh;
+      font-size: 0.74em;
+    }  */
   }
