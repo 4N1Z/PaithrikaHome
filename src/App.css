@@ -93,6 +93,80 @@ section{
   bottom: 15px;
 }
 
+.chatbot,.chatbotContainer{
+
+  position: fixed;
+  /* visibility: hidden;
+  opacity: 0; */
+  right: 50px;
+  bottom: -5px;
+  z-index: 996;
+
+  
+
+}
+.chatbot{
+  width: 350px;
+   height : 430px;
+}
+.chatbotContainer{
+  height: 480px;
+  width: 350px;  
+  background-color: #97050500;
+}
+.close-btn{ 
+
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+}
+.modal{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position:fixed;
+  background-color:rgba(0,0,0,0.308);
+  /* backdrop-filter: blur(1px); */
+}
+.modal-not-visible{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position:fixed;
+  background-color:rgba(0,0,0,0.308);
+  display: none;
+}
+.add-btn{
+  /* padding: 15px; */
+
+  background-color:rgba(240, 248, 255, 0.43);
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.add-btn{
+
+  position: fixed;
+  right: 50px;
+  bottom: 75px;
+  height: 50px;
+  width: 50px;
+  z-index: -1;
+  background-color: #000000f9;
+}
+.close-btn{
+
+  position: fixed;
+  top: 250px;
+  right: 370px; 
+
+
+}
 
 /*--------------------------------------------------------------
 # Preloader

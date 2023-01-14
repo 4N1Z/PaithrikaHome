@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import "./index.css";
 import 'animate.css';
 
-import { upArrow } from "./assets/images/export_file";
+import { upArrow,menu,close } from "./assets/images/export_file";
 
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
@@ -21,6 +21,8 @@ import Testimon from "./components/Testimon/Testimon";
 
 
 function App() {
+
+  const [modalVisible,setModalVisible]= useState(false);
 
   
   document.addEventListener("DOMContentLoaded", () => {
@@ -90,6 +92,20 @@ function App() {
       <a href="#" class="scroll-top d-flex justify-content-center">
         <img src={upArrow} alt="" />
       </a>
+
+      {/* w-[28px] h-[28px] object-contain cursor-pointer z-30 */}
+      
+      <div className="chatbotContainer">
+      <a className="add-btn" href='#'
+          onClick={()=>setModalVisible(true)}
+          ><img src={menu} alt="OK" /></a>
+        <div className={modalVisible? 'modal':'modal-not-visible'}>
+          <a href="#" className="close-btn"
+              onClick={()=>setModalVisible(!modalVisible)}
+              ><img src={close} alt="close" /></a>
+          <iframe className="chatbot"  allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/00ee4320-a1f2-4419-aed0-62a9b4526544"></iframe>
+        </div>
+      </div>
 
     </div>
   );
