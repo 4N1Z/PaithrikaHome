@@ -3,7 +3,7 @@ import "./App.css";
 import "./index.css";
 import 'animate.css';
 
-import { upArrow,menu,close } from "./assets/images/export_file";
+import { upArrow,menu,close,chatBot } from "./assets/images/export_file";
 
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
@@ -98,7 +98,7 @@ function App() {
       <div className="chatbotContainer">
       <a className="add-btn" href='#'
           onClick={()=>setModalVisible(true)}
-          ><img src={menu} alt="OK" /></a>
+          ><img src={chatBot} alt="chatbot" /></a>
         <div className={modalVisible? 'modal':'modal-not-visible'}>
           <a href="#" className="close-btn"
               onClick={()=>setModalVisible(!modalVisible)}
