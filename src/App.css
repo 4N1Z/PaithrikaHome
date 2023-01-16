@@ -107,11 +107,12 @@ section{
 }
 .chatbot{
   width: 350px;
-   height : 430px;
+  height : 400px;
+  padding: 15px;
 }
 .chatbotContainer{
   height: 480px;
-  width: 350px;  
+  width: 350px;
   background-color: #97050500;
 }
 .close-btn{ 
@@ -119,7 +120,10 @@ section{
   text-decoration: none;
   font-size: 25px;
   color: rgb(0, 0, 0);
-  margin-top: 10px;
+  /* margin-top: 10px */
+  position:fixed;
+  right: 360px;
+  bottom: 390px;
 }
 .modal{
   height: 100%;
@@ -159,15 +163,10 @@ section{
   z-index: -1;
   background-color:rgba(240, 248, 255, 0.671);
 }
-.close-btn{
-  position: fixed;
-  top: 280px;
-  right: 370px; 
-}
 @media screen and (max-width: 470px){
   .close-btn{
-    top: 390px;
-    right: 280px;
+    bottom:410px;
+    right: 270px;
   }
   .chatbot{
     width: 300px;
@@ -176,7 +175,8 @@ section{
     bottom: 15px;
   }
   .add-btn{
-    
+    right: 50px;
+    bottom: 70px;
   }
 }
 
