@@ -15,6 +15,7 @@ import Season from "./components/Season/Season";
 import Gallery from "./components/Gallery/Gallery";
 import OneStop from "./components/OneStop/OneStop";
 import Testimon from "./components/Testimon/Testimon";
+import Upcoming from "./components/Upcoming/Upcoming";
 
 // import TestNav from "./components/Test_Nav/TestNav";
 // const pure = new PureCounter();
@@ -86,6 +87,8 @@ function App() {
       {/* <Testimonials /> */}
       <Contact />
       <Footer />
+
+      <Upcoming/>
 
      {/*        Bottom -top Arrow         */}
       {/* This is working hopefullly */}
