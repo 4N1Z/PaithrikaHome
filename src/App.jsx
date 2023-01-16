@@ -24,8 +24,6 @@ import Upcoming from "./components/Upcoming/Upcoming";
 function App() {
 
   const [modalVisible,setModalVisible]= useState(false);
-
-  
   document.addEventListener("DOMContentLoaded", () => {
     "use strict";
 
