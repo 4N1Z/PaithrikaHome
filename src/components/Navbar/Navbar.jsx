@@ -41,6 +41,12 @@ function Navbar() {
               <a className ="navTitle" href={`#${nav.id}`}> {nav.title} </a>
             </li>
           ))}
+          {/* Custom router */}
+          <li
+              className="font-poppins font-medium uppercase cursor-pointer text-[18px] text-black mr-8"
+            >
+              <a className ="navTitle" href="/project">Projects</a>
+            </li>
         </ul>
       </div>
 
@@ -61,9 +67,9 @@ function Navbar() {
 
         <div
           className={`${toggle ? "flex" : "hidden"} 
-          p-6 bg-teritery absolute top-0 right-0 mx-0 my-0 w-full h-full`}
+          p-6 bg-teritery absolute top-0 right-0 mx-0 my-0 w-full h-full z-10`}
         >
-          <ul className="list-none flex flex-col justify-center items-center flex-1 ">
+          <ul className="list-none flex flex-col justify-center items-center flex-1 z-200">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
@@ -77,6 +83,15 @@ function Navbar() {
                 </div>
               </li>
             ))}
+            <li
+                className={`font-poppins font-normal uppercase cursor-pointer text-[24px] text-white  `}
+              >
+                <div className= "mobileTitle">
+                 <a
+                 onClick={() => setToggle((prev) => !prev)} 
+                 href={`/project`}>Projects</a>
+                </div>
+              </li>
           </ul>
         </div>
       </div>
