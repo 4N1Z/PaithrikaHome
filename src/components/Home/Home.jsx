@@ -48,7 +48,7 @@ function Home() {
         </div >
         <div  className="animate__animated animate__headShake counterContainer">
           <div className="counter">
-            <h1 className="countNumber">24+</h1>
+            <h1 className="countNumber">78+</h1>
             {/* <span  data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="3" className="purecounter">0</span><span> +</span> */}
             <h5 className="countTitle">
               Works <br />
@@ -56,14 +56,14 @@ function Home() {
             </h5>
           </div>
           <div className="counter">
-            <h1 className="countNumber">24+</h1>
+            <h1 className="countNumber">78+</h1>
             <h5 className="countTitle">
               Works <br />
               Completed
             </h5>
           </div>
           <div className="counter">
-            <h1 className="countNumber">24+</h1>
+            <h1 className="countNumber">78+</h1>
             <h5 className="countTitle">
               Works <br />
               Completed
