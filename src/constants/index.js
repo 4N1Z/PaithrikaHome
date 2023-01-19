@@ -2,23 +2,33 @@ export const navLinks = [
   {
     id: "home",
     title: "Home",
+    link:"#home",
   },
   {
     id: "about",
     title: "About",
+    link:"#about",
   },
   {
     id: "project",
     title: "Project",
+    link:"#project",
   },
   {
     id: "gallery",
     title: "Gallery",
+    link:"#gallery",
   },
   {
     id: "contact",
     title: "Contact",
+    link:"#contact",
   },
+  {
+    id: "projects-page",
+    title: "Projects",
+    link:"/projects",
+  },  
 ];
 
 export const stats = [

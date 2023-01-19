@@ -38,15 +38,9 @@ function Navbar() {
                 index === navLinks.length - 1 ? "mr-0" : "mr-8"
               } text-black`}
             >
-              <a className ="navTitle" href={`#${nav.id}`}> {nav.title} </a>
+              <a className ="navTitle" href={`${nav.link}`}> {nav.title} </a>
             </li>
           ))}
-          {/* Custom router */}
-          <li
-              className="font-poppins font-medium uppercase cursor-pointer text-[18px] text-black mr-8"
-            >
-              <a className ="navTitle" href="/project">Projects</a>
-            </li>
         </ul>
       </div>
 
@@ -79,19 +73,10 @@ function Navbar() {
                 <div className= "mobileTitle">
                  <a
                  onClick={() => setToggle((prev) => !prev)} 
-                 href={`#${nav.id}`}>{nav.title}</a>
+                 href={`${nav.link}`}>{nav.title}</a>
                 </div>
               </li>
             ))}
-            <li
-                className={`font-poppins font-normal uppercase cursor-pointer text-[24px] text-white  `}
-              >
-                <div className= "mobileTitle">
-                 <a
-                 onClick={() => setToggle((prev) => !prev)} 
-                 href={`/project`}>Projects</a>
-                </div>
-              </li>
           </ul>
         </div>
       </div>
