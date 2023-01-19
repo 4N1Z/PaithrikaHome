@@ -1,6 +1,6 @@
 
 .navbar{
-    z-index: 20;
+    z-index: 40;
     width: 100%;
     padding-right: 2em;
     color: rgba(42, 41, 41, 0);
@@ -16,6 +16,7 @@
 .navTitle{
     position: relative;
     text-decoration: none;
+    font-weight: 500;
     /* color: rgba(36, 36, 36, 0.9); */
 }
 

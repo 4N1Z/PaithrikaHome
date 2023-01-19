@@ -3,14 +3,19 @@ export const navLinks = [
     id: "home",
     title: "Home",
   },
+   {
+    id: "project",
+    title: "Project",
+  },
+   {
+    id: "services",
+    title: "Services",
+  },
   {
     id: "about",
     title: "About",
   },
-  {
-    id: "project",
-    title: "Project",
-  },
+ 
   {
     id: "gallery",
     title: "Gallery",
@@ -18,6 +23,11 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+ 
+  {
+    id: "contact",
+    title: "Careers",
   },
 ];
 
@@ -115,4 +125,5 @@ export const sampleTestimonials = [
     post: "Delhi",
   },
 ];
+
 
