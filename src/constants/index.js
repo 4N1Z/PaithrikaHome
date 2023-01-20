@@ -24,11 +24,6 @@ export const navLinks = [
     title: "Contact",
     link:"#contact",
   },
-  {
-    id: "projects-page",
-    title: "Projects",
-    link:"/projects",
-  },  
 ];
 
 export const stats = [
