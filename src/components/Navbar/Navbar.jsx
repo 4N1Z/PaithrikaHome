@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { logo, menu, close, logoWhite } from "../../assets/images/export_file";
 import { navLinks } from "../../constants/index.js";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
@@ -29,7 +30,7 @@ function Navbar() {
   return (
     <nav id = "nav" className="w-full flex py-5 justify-between items-center navbar">
       <div className="sn:flex justify-end items-center flex-1">
-        <a href="#home"><img src={logo} alt="paithrika Home" className="w-[124px] h-[32px] " /></a>
+        <Link to="/"><img src={logo} alt="paithrika Home" className="w-[124px] h-[32px] " /></Link>
         <ul className="list-none sn:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
             <li
@@ -38,7 +39,7 @@ function Navbar() {
                 index === navLinks.length - 1 ? "mr-0" : "mr-8"
               } text-black`}
             >
-              <a className ="navTitle" href={`#${nav.id}`}> {nav.title} </a>
+              <a className ="navTitle" href={`${nav.link}`}> {nav.title} </a>
             </li>
           ))}
         </ul>
@@ -61,9 +62,9 @@ function Navbar() {
 
         <div
           className={`${toggle ? "flex" : "hidden"} 
-          p-6 bg-teritery absolute top-0 right-0 mx-0 my-0 w-full h-full`}
+          p-6 bg-teritery absolute top-0 right-0 mx-0 my-0 w-full h-full z-10`}
         >
-          <ul className="list-none flex flex-col justify-center items-center flex-1 ">
+          <ul className="list-none flex flex-col justify-center items-center flex-1 z-200">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
@@ -73,7 +74,7 @@ function Navbar() {
                 <div className= "mobileTitle">
                  <a
                  onClick={() => setToggle((prev) => !prev)} 
-                 href={`#${nav.id}`}>{nav.title}</a>
+                 href={`${nav.link}`}>{nav.title}</a>
                 </div>
               </li>
             ))}
