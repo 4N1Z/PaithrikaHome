@@ -2,6 +2,7 @@ import React from 'react'
 import "./Projects.css"
 import { logo, } from '../../assets/images/export_file'
 import { project_images } from '../../constants/index'
+import { Link } from 'react-router-dom'
 function Projects() {
 
     // On mouse enter functions
@@ -47,7 +48,7 @@ function Projects() {
         <h1 className='titleProject'>Projects</h1>
 
     <div className='projects-container'>
-        <div className="project" id='upcoming-project' onMouseEnter={upcoming_mouse_enter}
+        <Link to="/upcoming" className="project" id='upcoming-project' onMouseEnter={upcoming_mouse_enter}
         style={
             {
                 backgroundImage : project_images.upcoming,
@@ -56,8 +57,8 @@ function Projects() {
         }>
             
             <div className="black-overlay"><p className='projectSubtitle'><span className='project-bold'>Upcoming</span><br/>Projects</p></div>
-        </div>
-        <div className="project" id='ongoing-project'  onMouseEnter={ongoing_mouse_enter}
+        </Link>
+        <Link to="/ongoing" className="project" id='ongoing-project'  onMouseEnter={ongoing_mouse_enter}
         style={
             {
                 backgroundImage : project_images.ongoing,
@@ -68,8 +69,8 @@ function Projects() {
             <div className="black-overlay">
                 <p  className='projectSubtitle'><span className='project-bold'>Ongoing</span><br />Projects</p>
             </div>
-        </div>
-        <div className="project" id='finished-project'  onMouseEnter= {finished_mouse_enter}
+        </Link>
+        <Link to="/finished" className="project" id='finished-project'  onMouseEnter= {finished_mouse_enter}
         style={
             {
                 backgroundImage : project_images.finished,
@@ -80,7 +81,7 @@ function Projects() {
             <div className="black-overlay">
                 <p className='projectSubtitle'><span className='project-bold'>Finished</span><br />Projects</p>
             </div>
-        </div>
+        </Link>
     </div>
     </section>
   </>
