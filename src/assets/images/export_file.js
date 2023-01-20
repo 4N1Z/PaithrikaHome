@@ -21,8 +21,12 @@ import logoName from "./logoName.svg"
 import footerLogo from "./footerLogo.svg"
 import upArrow from "./up-arrow.webp"
 import oneStopLogo from "./OnestopLogo.svg"
+import chatBot from "./chatbot.svg"
+
+
 
 export {
+    chatBot,
     logo,   
     homePic,
     close,

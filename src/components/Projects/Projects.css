@@ -74,8 +74,8 @@ body,.projectMainContainer{
 #ongoing-project:hover
 ,#upcoming-project:hover,
 #finished-project:hover{
-    
-    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+/*     
+    animation: pulse; 
     animation-duration: 1s;
-    
+     */
 }
