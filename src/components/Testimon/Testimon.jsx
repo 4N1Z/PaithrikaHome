@@ -5,6 +5,7 @@ import { quotes, quotes2 } from "../../assets/images/export_file";
 
 function Testimon() {
   return (
+    
     <div className="testimonial-container">
       <h1 className="titleTestimon">Testimonials</h1>
 

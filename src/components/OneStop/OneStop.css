@@ -74,10 +74,8 @@
     /* z-index: 40; */
 }
 .card-1 {
-    background-image: url(../../assets/images/toBeDeleted/2.png);
-
-
-    background-image: url(../../assets/images/main/D3-D8.jpg);
+    /* background-image: url(../../assets/images/toBeDeleted/2.png); */
+    background-image: url(../../assets/images/main/D3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-position: fit-content;
