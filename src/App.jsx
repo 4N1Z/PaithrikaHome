@@ -15,7 +15,8 @@ import Season from "./components/Season/Season";
 import Gallery from "./components/Gallery/Gallery";
 import OneStop from "./components/OneStop/OneStop";
 import Testimon from "./components/Testimon/Testimon";
-import Upcoming from "./components/Upcoming/Upcoming";
+import Completed from "./pages/Completed/Completed";
+
 
 
 
@@ -84,7 +85,7 @@ function App() {
       <Projects />
       <Gallery />
       <Testimon />
-      <Upcoming/>
+      <Completed/>
       {/* <Testimonials /> */}
       <Contact />
       <Footer />

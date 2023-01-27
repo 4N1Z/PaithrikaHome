@@ -126,7 +126,7 @@ export const sampleTestimonials = [
   },
 ];
 
-export const UpcomingProjectDetails = [
+export const CompletedProjectDetails = [
 
   {
     image : "url('../../assets/images/main/AADYA.jpg')",
@@ -165,4 +165,28 @@ export const UpcomingProjectDetails = [
       "4. Well Landscaped Open Auditorium with stage" 
     ]
   }
+]
+
+export const OngoingProjectDetails = [
+
+  {
+    image : "url('../../assets/images/main/AADYA.jpg')",
+    ProjectName : "PRANAAMAM",
+    AuthorName : "Paithrika Builders",
+    Duration : "2-3 weeks",
+    detail : " The introductory project of Paithrika Homes and Estates (P) Ltd was PRANAAMAM and the commencement of construction was during the year 2012. And completed in 2014. Considered as a flagship venture, it is a major milestone in the history of our organization. Pranaamam will always remain as the launch pad for all our successes in the future. There are 15 eco friendly designer villas, which are provided with security, and also delightful play area that kids would love spending their play time in.",
+    list : ""
+  },
+]
+
+export const UpcomingProjectDetails = [
+
+  {
+    image : "url('../../assets/images/main/AADYA.jpg')",
+    ProjectName : "PRANAAMAM",
+    AuthorName : "Paithrika Builders",
+    Duration : "2-3 weeks",
+    detail : " The introductory project of Paithrika Homes and Estates (P) Ltd was PRANAAMAM and the commencement of construction was during the year 2012. And completed in 2014. Considered as a flagship venture, it is a major milestone in the history of our organization. Pranaamam will always remain as the launch pad for all our successes in the future. There are 15 eco friendly designer villas, which are provided with security, and also delightful play area that kids would love spending their play time in.",
+    list : ""
+  },
 ]
