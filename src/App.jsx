@@ -15,8 +15,10 @@ import Season from "./components/Season/Season";
 import Gallery from "./components/Gallery/Gallery";
 import OneStop from "./components/OneStop/OneStop";
 import Testimon from "./components/Testimon/Testimon";
-
+import Upcoming from "./pages/Upcoming/Upcoming";
+import Ongoing from "./pages/Ongoing/Ongoing";
 import Completed from "./pages/Completed/Completed";
+
 
 
 
@@ -84,23 +86,23 @@ function App() {
 
       <Navbar />
       {/* <Season /> */}
-      <Home />
+      {/* <Home />
       <About />
       <OneStop />
       <Projects />
       <Gallery />
       <Testimon />
-      <Completed/>
+      <Completed/> */}
 
       {/* <Testimonials /> */}
       
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={[<Home/>,<About/>,<OneStop/>,<Projects/>,<Gallery />,<Testimon/>,<Contact/>]}/>
-        <Route path="/upcoming" element={<UpcomingProjects/>} />
-        <Route path="/ongoing" element={<OngoingProjects/>} />
-        <Route path="/finished" element={<FinishedProjects/>} />
-        
-        </Routes> */}
+        <Route path="/upcoming" element={<Upcoming/>} />
+        <Route path="/ongoing" element={<Ongoing/>} />
+        <Route path="/finished" element={<Completed/>} />
+        </Routes>
+
       <Footer />
 
 
