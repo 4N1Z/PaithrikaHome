@@ -1,7 +1,5 @@
 .about {
     min-height: 100vh;
-   
-
 }
 
 .posts {
@@ -11,7 +9,6 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-
 
 }
 
@@ -33,7 +30,6 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-
 }
 
 .image_main {
@@ -41,11 +37,10 @@
     padding-bottom: 2vh;
     padding-right: 5vw;
     z-index: 1;
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s 
+    animation: fadeIn;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s
 }
-
-
 
 .post-container {
     padding: 6vh 6vw;
@@ -64,9 +59,8 @@
     grid-template-columns: 3fr 3fr;
     gap: 6vw;
     align-content: space-between;
-    animation: fadeIn; 
-    animation-duration: 2s 
-
+    animation: fadeIn;
+    animation-duration: 2s
 }
 
 .turn_idea_box,
@@ -88,7 +82,8 @@
 
 
 }
-.itemName{
+
+.itemName {
     font-size: 1.2em;
     font-weight: 400;
     gap: 0.3em;
@@ -151,7 +146,7 @@
     .post-container {
         display: grid;
         justify-items: center;
-  
+
     }
 
     .main_image_bg {
@@ -173,11 +168,11 @@
     .list_of_items {
         /* grid: none; */
         /* display: grid; */
-        grid-template-columns:1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
     }
 
-    .list_items{
+    .list_items {
         /* display: grid; */
         /* grid-template-columns: 1fr 3fr; */
         display: flex;
@@ -186,7 +181,8 @@
         justify-content: center;
 
     }
-    .listOfItemsInAbout{
+
+    .listOfItemsInAbout {
 
         column-gap: 2rem;
         grid: none;
