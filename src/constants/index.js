@@ -91,11 +91,9 @@ export const homeImages = [
 
 
 export const project_images = {
-  ongoing:
-    "url('https://w0.peakpx.com/wallpaper/747/327/HD-wallpaper-tanjiro-pic-fan-art-anime-demon-slayer-kimetsu-no-yaiba.jpg')",
+  ongoing:"url('https://loremflickr.com/320/240')",
   upcoming: "url('https://www.nawpic.com/media/2020/zenitsu-nawpic-68.jpg')",
-  finished:
-    "url('https://assets.puzzlefactory.pl/puzzle/439/559/original.jpg')",
+  finished:"url('https://assets.puzzlefactory.pl/puzzle/439/559/original.jpg')",
 };
 
 export const UpcomingImages = {
