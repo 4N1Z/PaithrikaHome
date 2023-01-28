@@ -101,8 +101,8 @@ function App() {
         <Route path="/upcoming" element={<Upcoming/>} />
         <Route path="/ongoing" element={<Ongoing/>} />
         <Route path="/finished" element={<Completed/>} />
-        
         </Routes>
+
       <Footer />
 
 

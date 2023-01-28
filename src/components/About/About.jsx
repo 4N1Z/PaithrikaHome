@@ -9,7 +9,7 @@ function About() {
     <section className="about" id="about">
       <div className="posts">
         <div className="main_image_bg">
-          {/* <img src={PaithrikaBG} alt="" className="bg" /> */}
+          <img src={PaithrikaBG} alt="" className="bg" />
         </div>
         <h1 className="headingMain">About Us</h1>
 
@@ -30,6 +30,7 @@ function About() {
 
             <div className="list_of_items">
               <h1 className="list_heading">What We do </h1>
+            <div className="listOfItemsInAbout">
 
               {aboutDetails.map((take) => (
                 <div className="list_items">
@@ -37,6 +38,7 @@ function About() {
                   <p className="itemName"> {take.id} </p>
                 </div>
               ))}
+              </div>
             </div>
           </div>
         </div>
