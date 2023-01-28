@@ -7,7 +7,7 @@ function Upcoming() {
   return (
     <div>
       <div className="upcomingContainer">
-        <h1 className="titleUpcoming"> Completed Project </h1>
+        <h1 className="titleUpcoming"> Upcoming Project </h1>
 
         {UpcomingProjectDetails.map((item) => (
           <div className="indiProjects">

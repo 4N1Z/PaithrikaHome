@@ -15,9 +15,8 @@ import Season from "./components/Season/Season";
 import Gallery from "./components/Gallery/Gallery";
 import OneStop from "./components/OneStop/OneStop";
 import Testimon from "./components/Testimon/Testimon";
-import UpcomingProjects from "./pages/UpcomingProjects";
-import OngoingProjects from "./pages/OngoingProjects";
-import FinishedProjects from "./pages/FinishedProjects";
+import Completed from "./pages/Completed/Completed";
+
 
 // import TestNav from "./components/Test_Nav/TestNav";
 // const pure = new PureCounter();
@@ -83,6 +82,13 @@ function App() {
 
       <Navbar />
       {/* <Season /> */}
+      <Home />
+      <About />
+      <OneStop />
+      <Projects />
+      <Gallery />
+      <Testimon />
+      <Completed/>
       {/* <Testimonials /> */}
       <Routes>
         <Route path="/" element={[<Home/>,<About/>,<OneStop/>,<Projects/>,<Gallery />,<Testimon/>,<Contact/>]}/>
