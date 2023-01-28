@@ -91,9 +91,9 @@ export const homeImages = [
 
 
 export const project_images = {
-  ongoing:"url('src/assets/images/main/Plot16.jpg')",
-  upcoming: "url('src/assets/images/main/AADYA.jpg')",
-  finished:"url('src/assets/images/main/villaRev.jpg')",
+  ongoing:"url('../../assets/images/main/Plot16.jpg')",
+  upcoming: "url('../../assets/images/main/AADYA.jpg')",
+  finished:"url('../../assets/images/main/villaRev.jpg')",
 };
 
 // export const UpcomingImages = {
