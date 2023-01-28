@@ -24,12 +24,6 @@
 
 
 .headingMain {
-    /* font-weight: 600;
-    font-size: 2em;
-    color: white;
-    
-    text-align: center;
-    text-transform: uppercase; */
 
     padding: 1em;
     text-align: center;
@@ -156,16 +150,13 @@
 @media (max-width: 960px) {
     .post-container {
         display: grid;
-        grid-template-rows: 0.75fr 1fr;
-        /* justify-content: center; */
         justify-items: center;
-        gap: 1vw;
+  
     }
 
     .main_image_bg {
         display: none;
         width: max-content;
-
         background-image: url(../../assets/images/logo.svg);
 
     }
@@ -182,7 +173,8 @@
     .list_of_items {
         /* grid: none; */
         /* display: grid; */
-        /* grid-template-columns:1fr 1fr; */
+        grid-template-columns:1fr 1fr;
+        align-items: center;
     }
 
     .list_items{
@@ -195,11 +187,12 @@
 
     }
     .listOfItemsInAbout{
-        /* display: flex; */
-        /* flex-direction; */
+
+        column-gap: 2rem;
+        grid: none;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 2rem;
+        align-items: center;
     }
 
 }
