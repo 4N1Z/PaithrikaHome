@@ -29,7 +29,8 @@ carousel .thumb{
     /* flex-direction: row; */
     /* padding-top: 6rem; */
     margin: 4%;
-    gap: 10vh;
+    gap: 1em;
+    align-items: center;
 }
 /* .leftBox{
     padding: 10px;
@@ -96,8 +97,23 @@ carousel .thumb{
     text-transform: uppercase;
     opacity: 70%;
 }
+.rightBox {
+    width: 100%;
+    overflow: hidden;
+}
+.Gallery{
+    max-height: 90%;
+    /* max-width: 90%; */
+    display: grid;
+    grid-template-areas: 'stack';
+    white-space: nowrap;
+    place-items: center;
+}
+.Gallery img{
+    grid-area : stack;
+}
 
-@media(max-width:540px){
+@media(max-width:857px){
     .mainContainer{
         display: flex;
         flex-direction: column-reverse;
@@ -122,5 +138,7 @@ carousel .thumb{
         padding: 1em;
     }
 
+
 }
+
 
