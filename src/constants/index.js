@@ -91,9 +91,9 @@ export const homeImages = [
 
 
 export const project_images = {
-  ongoing:"url('https://loremflickr.com/320/240')",
-  upcoming: "url('https://www.nawpic.com/media/2020/zenitsu-nawpic-68.jpg')",
-  finished:"url('https://assets.puzzlefactory.pl/puzzle/439/559/original.jpg')",
+  ongoing:"url('src/assets/images/main/Plot16.jpg')",
+  upcoming: "url('src/assets/images/main/AADYA.jpg')",
+  finished:"url('src/assets/images/main/villaRev.jpg')",
 };
 
 // export const UpcomingImages = {
