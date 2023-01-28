@@ -1,15 +1,15 @@
 import React from "react";
-import "./Upcoming.css";
+import "./Completed.css";
 
-import { UpcomingProjectDetails } from "../../constants/index.js";
+import { CompletedProjectDetails } from "../../constants/index.js";
 
-function Upcoming() {
+function Completed() {
   return (
     <div>
       <div className="upcomingContainer">
         <h1 className="titleUpcoming"> Completed Project </h1>
 
-        {UpcomingProjectDetails.map((item) => (
+        {CompletedProjectDetails.map((item) => (
           <div className="indiProjects">
 
             <div className="imageOfProject">
@@ -44,4 +44,4 @@ function Upcoming() {
   );
 }
 
-export default Upcoming;
+export default Completed;

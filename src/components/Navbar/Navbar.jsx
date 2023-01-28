@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { logo, menu, close, logoWhite } from "../../assets/images/export_file";
 import { navLinks } from "../../constants/index.js";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
@@ -29,7 +30,7 @@ function Navbar() {
   return (
     <nav id = "nav" className="w-full flex py-5 justify-between items-center navbar">
       <div className="sn:flex justify-end items-center flex-1">
-        <a href="#home"><img src={logo} alt="paithrika Home" className="w-[124px] h-[32px] " /></a>
+        <Link to="/"><img src={logo} alt="paithrika Home" className="w-[124px] h-[32px] " /></Link>
         <ul className="list-none sn:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
             <li

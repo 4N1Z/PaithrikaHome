@@ -15,8 +15,14 @@ import Season from "./components/Season/Season";
 import Gallery from "./components/Gallery/Gallery";
 import OneStop from "./components/OneStop/OneStop";
 import Testimon from "./components/Testimon/Testimon";
-import Upcoming from "./components/Upcoming/Upcoming";
 
+import Completed from "./pages/Completed/Completed";
+
+
+
+// import TestNav from "./components/Test_Nav/TestNav";
+// const pure = new PureCounter();
+import { Routes, Route} from "react-router-dom";
 
 
 
@@ -84,8 +90,17 @@ function App() {
       <Projects />
       <Gallery />
       <Testimon />
+      <Completed/>
+
       {/* <Testimonials /> */}
-      <Contact />
+      
+      {/* <Routes>
+        <Route path="/" element={[<Home/>,<About/>,<OneStop/>,<Projects/>,<Gallery />,<Testimon/>,<Contact/>]}/>
+        <Route path="/upcoming" element={<UpcomingProjects/>} />
+        <Route path="/ongoing" element={<OngoingProjects/>} />
+        <Route path="/finished" element={<FinishedProjects/>} />
+        
+        </Routes> */}
       <Footer />
 
 
