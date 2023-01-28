@@ -70,7 +70,7 @@
     grid-template-columns: 3fr 3fr;
     gap: 6vw;
     align-content: space-between;
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation: fadeIn; 
     animation-duration: 2s 
 
 }
