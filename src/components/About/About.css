@@ -92,11 +92,19 @@
     font-weight: 500;
     opacity: 70%;
 }
+.itemName:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
 
 .list_subHeading {
     opacity: 70%;
     font-size: 1.2em;
     font-weight: 400;
+}
+.list_subHeading:hover{
+    opacity: 100%;
+    cursor: pointer;
 }
 
 .post-img {
@@ -116,6 +124,7 @@
 
 
 }
+
 
 .contactbtn {
     border-radius: 4px;

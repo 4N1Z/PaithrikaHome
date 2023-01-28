@@ -102,6 +102,7 @@ carousel .thumb{
     overflow: hidden;
 }
 .Gallery{
+    
     max-height: 90%;
     /* max-width: 90%; */
     display: grid;
