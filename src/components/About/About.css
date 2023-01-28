@@ -1,7 +1,6 @@
 .about {
     min-height: 100vh;
-   
-
+    overflow-x: hidden;
 }
 
 .posts {
@@ -12,7 +11,6 @@
     align-items: center;
     min-height: 100vh;
 
-
 }
 
 .main_image_bg {
@@ -22,14 +20,7 @@
     opacity: 0.2;
 }
 
-
 .headingMain {
-    /* font-weight: 600;
-    font-size: 2em;
-    color: white;
-    
-    text-align: center;
-    text-transform: uppercase; */
 
     padding: 1em;
     text-align: center;
@@ -39,7 +30,6 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-
 }
 
 .image_main {
@@ -47,11 +37,9 @@
     padding-bottom: 2vh;
     padding-right: 5vw;
     z-index: 1;
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation: fadeIn;
     animation-duration: 2s 
 }
-
-
 
 .post-container {
     padding: 6vh 6vw;
@@ -62,6 +50,7 @@
     justify-items: center;
     align-items: stretch;
 }
+
 
 .image-and-content {
     /* display: flex;
@@ -75,12 +64,14 @@
 
 }
 
+
 .turn_idea_box,
 .list_of_items {
     display: flex;
     flex-direction: column;
     gap: 0.7em;
 }
+
 
 
 .list_items {
@@ -91,15 +82,14 @@
     /* padding-left: 1.84em; */
     justify-content: start;
     padding-top: 15px;
-
-
 }
+
+
 .itemName{
     font-size: 1.2em;
     font-weight: 400;
     gap: 0.3em;
     text-transform: capitalize;
-    /* padding-left: 1.84em; */
     font-weight: 500;
     opacity: 70%;
 }
@@ -156,17 +146,13 @@
 @media (max-width: 960px) {
     .post-container {
         display: grid;
-        grid-template-rows: 0.75fr 1fr;
-        /* justify-content: center; */
         justify-items: center;
-        gap: 1vw;
     }
 
     .main_image_bg {
-        /* display: none; */
+        display: none;
+        background-image: url(../../assets/images/logo.svg);
         width: max-content;
-
-        /* background-image: url(../../assets/images/logo.svg); */
 
     }
 
@@ -182,7 +168,8 @@
     .list_of_items {
         /* grid: none; */
         /* display: grid; */
-        /* grid-template-columns:1fr 1fr; */
+        grid-template-columns:1fr 1fr;
+        align-items: center;
     }
 
     .list_items{
@@ -195,11 +182,12 @@
 
     }
     .listOfItemsInAbout{
-        /* display: flex; */
-        /* flex-direction; */
+
+        column-gap: 2rem;
+        grid: none;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 2rem;
+        align-items: center;
     }
 
 }
