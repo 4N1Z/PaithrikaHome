@@ -1,7 +1,5 @@
 .about {
     min-height: 100vh;
-   
-
 }
 
 .posts {
@@ -11,7 +9,6 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-
 
 }
 
@@ -24,12 +21,6 @@
 
 
 .headingMain {
-    /* font-weight: 600;
-    font-size: 2em;
-    color: white;
-    
-    text-align: center;
-    text-transform: uppercase; */
 
     padding: 1em;
     text-align: center;
@@ -39,7 +30,6 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
 
-
 }
 
 .image_main {
@@ -47,11 +37,10 @@
     padding-bottom: 2vh;
     padding-right: 5vw;
     z-index: 1;
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s 
+    animation: fadeIn;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s
 }
-
-
 
 .post-container {
     padding: 6vh 6vw;
@@ -70,9 +59,8 @@
     grid-template-columns: 3fr 3fr;
     gap: 6vw;
     align-content: space-between;
-    animation: fadeIn; 
-    animation-duration: 2s 
-
+    animation: fadeIn;
+    animation-duration: 2s
 }
 
 .turn_idea_box,
@@ -94,7 +82,8 @@
 
 
 }
-.itemName{
+
+.itemName {
     font-size: 1.2em;
     font-weight: 400;
     gap: 0.3em;
@@ -103,11 +92,19 @@
     font-weight: 500;
     opacity: 70%;
 }
+.itemName:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
 
 .list_subHeading {
     opacity: 70%;
     font-size: 1.2em;
     font-weight: 400;
+}
+.list_subHeading:hover{
+    opacity: 100%;
+    cursor: pointer;
 }
 
 .post-img {
@@ -127,6 +124,7 @@
 
 
 }
+
 
 .contactbtn {
     border-radius: 4px;
@@ -156,17 +154,14 @@
 @media (max-width: 960px) {
     .post-container {
         display: grid;
-        grid-template-rows: 0.75fr 1fr;
-        /* justify-content: center; */
         justify-items: center;
-        gap: 1vw;
+
     }
 
     .main_image_bg {
-        /* display: none; */
+        display: none;
         width: max-content;
-
-        /* background-image: url(../../assets/images/logo.svg); */
+        background-image: url(../../assets/images/logo.svg);
 
     }
 
@@ -182,10 +177,11 @@
     .list_of_items {
         /* grid: none; */
         /* display: grid; */
-        /* grid-template-columns:1fr 1fr; */
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
     }
 
-    .list_items{
+    .list_items {
         /* display: grid; */
         /* grid-template-columns: 1fr 3fr; */
         display: flex;
@@ -194,12 +190,14 @@
         justify-content: center;
 
     }
-    .listOfItemsInAbout{
-        /* display: flex; */
-        /* flex-direction; */
+
+    .listOfItemsInAbout {
+
+        column-gap: 2rem;
+        grid: none;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 2rem;
+        align-items: center;
     }
 
 }
