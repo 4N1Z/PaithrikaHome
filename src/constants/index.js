@@ -12,7 +12,7 @@ export const navLinks = [
    {
     id: "services",
     title: "Services",
-    link:"#services",
+    link:"#OneStop",
   },
   {
     id: "about",
@@ -33,6 +33,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Careers",
+    link:"#Footer",
   },
 ];
 

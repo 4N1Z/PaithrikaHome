@@ -41,7 +41,7 @@ function Gallery() {
         // }
     ]
     return (
-        <div className='gallery-container'>
+        <div className='gallery-container' id='gallery'>
             <span className='headingMain'>Gallery</span>
             <div className='gallery'>
                 <div className="page page-one">
