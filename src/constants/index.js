@@ -78,20 +78,20 @@ export const aboutDetails = [
 // import {} from "../assets/images/export_file"
 export const homeImages = [
   {
-    src: "https://loremflickr.com/320/240"
+    src: "https://loremflickr.com/300/240"
   },
   {
-    src:"https://loremflickr.com/320/240"
+    src:"https://loremflickr.com/300/240"
   },
   {
-    src:"https://loremflickr.com/320/240"
+    src:"https://loremflickr.com/300/240"
   },
 ];
 
 
 
 export const project_images = {
-  ongoing:"url('../../assets/images/main/Plot16.jpg')",
+  ongoing:'url("../../assets/images/main/Plot16.jpg")',
   upcoming: "url('../../assets/images/main/AADYA.jpg')",
   finished:"url('../../assets/images/main/villaRev.jpg')",
 };

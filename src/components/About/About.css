@@ -163,10 +163,10 @@
     }
 
     .main_image_bg {
-        /* display: none; */
+        display: none;
         width: max-content;
 
-        /* background-image: url(../../assets/images/logo.svg); */
+        background-image: url(../../assets/images/logo.svg);
 
     }
 

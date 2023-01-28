@@ -51,7 +51,7 @@ function Projects() {
         <Link to="/upcoming" className="project" id='upcoming-project' onMouseEnter={upcoming_mouse_enter}
         style={
             {
-                backgroundImage : project_images.upcoming,
+                // backgroundImage : project_images.upcoming,
                 width:"50%",
             }
         }>
@@ -61,7 +61,7 @@ function Projects() {
         <Link to="/ongoing" className="project" id='ongoing-project'  onMouseEnter={ongoing_mouse_enter}
         style={
             {
-                backgroundImage : project_images.ongoing,
+                // backgroundImage : project_images.ongoing,
                 width:"25%",
                 writingMode:'vertical-rl',
             }
@@ -73,7 +73,7 @@ function Projects() {
         <Link to="/finished" className="project" id='finished-project'  onMouseEnter= {finished_mouse_enter}
         style={
             {
-                backgroundImage : project_images.finished,
+                // backgroundImage : project_images.finished,
                 width:"25%",
                 writingMode:'vertical-rl',
             }
