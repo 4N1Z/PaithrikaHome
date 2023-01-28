@@ -8,7 +8,7 @@ function Contact() {
       <div className="contactContainer">
         <div className="textBox">
           <h1 className="titles_contact">Let's Talk</h1>
-          <h4 className="subtitle_contact">Say 'hi' for enguiry</h4>
+          <h4 className="subtitle_contact">Say 'hi' for enquiry</h4>
         </div>
 
         <div className="contactForms">

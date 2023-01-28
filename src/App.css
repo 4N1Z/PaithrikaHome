@@ -18,10 +18,10 @@ font-family: 'Poppins', sans-serif; */
 } */
 
 
-body{
+body {
 
 
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Poppins', sans-serif;
   background-color: #F3F3F3;
   width: 100%;
   overflow-x: hidden;
@@ -30,14 +30,16 @@ body{
   /* animation-duration: 20s;  */
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
-section{
+
+section {
   min-height: 100vh;
 }
 
@@ -45,20 +47,16 @@ section{
 /*  */
 
 /* Bottom-Top Button */
-.scroll-top{
+.scroll-top {
 
   position: fixed;
-  /* visibility: hidden;
-  opacity: 0; */
+
   right: 25px;
   bottom: -5px;
   z-index: 996;
-  /* background-color: #CC281E; */
   background-color: #F3F3F3;
   box-shadow: 0px 0px 24px rgba(24, 1, 0, 0.259);
-	/* background-size: 400% 400%; */
-	animation: gradient 12s ease infinite;
-  /* width: 50px; */
+  animation: gradient 12s ease infinite;
   height: 50px;
   border-radius: 4px;
   transition: all 0.4s;
@@ -67,6 +65,7 @@ section{
 
 
 }
+
 .scroll-top img {
   padding-top: 2.5px;
   width: 34px;
@@ -79,11 +78,12 @@ section{
   height: 65px;
 
   opacity: 100%;
-	animation: gradient 22s ease infinite;
+  animation: gradient 22s ease infinite;
   transition: .5s;
-  
+
   /* box-shadow: 0px 0px 23px #cc/ff00c9; */
 }
+
 /* @media (max-width: 768px) {
   .home .row {
     margin-top: -3cm;
@@ -96,22 +96,23 @@ section{
   bottom: 15px;
 }
 
-.chatbot,.chatbotContainer{
+.chatbot,
+.chatbotContainer {
 
   position: fixed;
-  /* visibility: hidden;
-  opacity: 0; */
+
   right: 50px;
   bottom: -5px;
   z-index: 8;
-}
 
+  
+
+}
 .chatbot{
   width: 350px;
-  height : 400px;
+  height: 400px;
   padding: 15px;
 }
-
 .chatbotContainer{
   height: 480px;
   width: 350px;
@@ -120,38 +121,39 @@ section{
   /* top: 12px; */
   /* background-color: #CC281E; */
 }
-.close-btn{ 
+
+.close-btn {
 
   text-decoration: none;
   font-size: 25px;
   color: rgb(0, 0, 0);
   /* margin-top: 10px */
-  position:fixed;
+  position: fixed;
   right: 360px;
   bottom: 390px;
 }
-
 .modal{
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  position:fixed;
-  background-color:rgba(0,0,0,0.308);
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.308);
   /* backdrop-filter: blur(1px); */
 }
-
 .modal-not-visible{
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  position:fixed;
-  background-color:rgba(0,0,0,0.308);
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.308);
   display: none;
 }
-.add-btn{
+
+.add-btn {
   /* padding: 15px; */
+
   background-color:rgba(240, 248, 255, 0.43);
   border-radius: 10px;
   text-decoration: none;
@@ -159,28 +161,50 @@ section{
   color: black;
 }
 
-.add-btn{
+.add-btn {
 
   position: fixed;
-  right: 50px;
-  bottom: 70px;
+  right: 32px;
+  bottom: 75px;
   height: 50px;
   width: 50px;
   z-index: -1;
-  background-color:rgba(240, 248, 255, 0.671);
+  background-color: #F3F3F3;
+  box-shadow: 0px 0px 24px rgba(24, 1, 0, 0.159);
+  animation: gradient 12s ease infinite;
+  /* opacity: 60%; */
 }
-@media screen and (max-width: 470px){
-  .close-btn{
-    bottom:410px;
+
+.add-btn:hover {
+
+
+  height: 51px;
+  width: 51px;
+
+  opacity: 100%;
+  animation: gradient 12s ease infinite;
+  transition: 1s;
+  box-shadow: 0px 0px 24px rgba(204, 39, 30, 0.25);
+
+
+
+
+}
+
+@media screen and (max-width: 470px) {
+  .close-btn {
+    bottom: 410px;
     right: 270px;
   }
-  .chatbot{
+
+  .chatbot {
     width: 300px;
-    height : 400px;
+    height: 400px;
     right: 10px;
     bottom: 15px;
   }
-  .add-btn{
+
+  .add-btn {
     right: 50px;
     bottom: 70px;
   }
@@ -189,7 +213,7 @@ section{
 /*--------------------------------------------------------------
 # Finshed-Project
 --------------------------------------------------------------*/
-.Project-box{
+.Project-box {
   height: 20vh;
   font-size: 70px;
 }
@@ -239,5 +263,3 @@ section{
     transform: rotate(360deg);
   }
 }
-
-

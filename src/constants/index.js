@@ -12,7 +12,7 @@ export const navLinks = [
    {
     id: "services",
     title: "Services",
-    link:"#services",
+    link:"#OneStop",
   },
   {
     id: "about",
@@ -33,6 +33,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Careers",
+    link:"#Footer",
   },
 ];
 
@@ -78,24 +79,22 @@ export const aboutDetails = [
 // import {} from "../assets/images/export_file"
 export const homeImages = [
   {
-    src: "https://loremflickr.com/320/240"
+    src: "https://loremflickr.com/300/240"
   },
   {
-    src:"https://loremflickr.com/320/240"
+    src:"https://loremflickr.com/300/240"
   },
   {
-    src:"https://loremflickr.com/320/240"
+    src:"https://loremflickr.com/300/240"
   },
 ];
 
 
 
 export const project_images = {
-  ongoing:
-    "url('https://w0.peakpx.com/wallpaper/747/327/HD-wallpaper-tanjiro-pic-fan-art-anime-demon-slayer-kimetsu-no-yaiba.jpg')",
-  upcoming: "url('https://www.nawpic.com/media/2020/zenitsu-nawpic-68.jpg')",
-  finished:
-    "url('https://assets.puzzlefactory.pl/puzzle/439/559/original.jpg')",
+  ongoing:'url("../../assets/images/main/Plot16.jpg")',
+  upcoming: "url('../../assets/images/main/AADYA.jpg')",
+  finished:"url('../../assets/images/main/villaRev.jpg')",
 };
 
 // export const UpcomingImages = {

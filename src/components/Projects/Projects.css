@@ -65,6 +65,17 @@ body,.projectMainContainer{
  
 }
 
+#ongoing-project{
+    background-image: url(../../assets/images/main/A5.jpg);
+}
+#finished-project{
+    background-image: url(../../assets//images/main/AadyaAvenue.jpg);
+}
+
+#upcoming-project{
+    background-image: url(../../assets/images/main/plot19.jpg);
+}
+
 #ongoing-project #upcoming-project #finished-project{
     
     animation: fadeIn; /* referring directly to the animation's @keyframe declaration */

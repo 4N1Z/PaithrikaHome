@@ -41,15 +41,8 @@ function Gallery() {
         // }
     ]
     return (
-        <div className='gallery-container'>
+        <div className='gallery-container' id='gallery'>
             <span className='headingMain'>Gallery</span>
-            {/* <div className="gallery">
-      {gallery_data.map((photo)=>(
-        <div className={photo.type}>
-          <img src={photo.url} alt={photo.caption} />
-        </div>
-      ))}
-      </div> */}
             <div className='gallery'>
                 <div className="page page-one">
                   {gallery_data.map((item)=>(
