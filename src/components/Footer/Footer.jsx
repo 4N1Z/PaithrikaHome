@@ -11,7 +11,7 @@ import {
 
 function Footer() {
   return (
-    <section className="footerbg">
+    <section className="footerbg" id="Footer">
       <div className="footerContainer">
         <div className="contentsAll">
           <h4 className="aboveHead">quam in hendrerit urna</h4>

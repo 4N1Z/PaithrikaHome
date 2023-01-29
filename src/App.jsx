@@ -92,7 +92,6 @@ function App() {
       <Projects />
       <Gallery />
       <Testimon />
-      <Completed/> */}
 
       {/* <Testimonials /> */}
       
