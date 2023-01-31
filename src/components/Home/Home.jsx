@@ -154,8 +154,8 @@ function Home() { // new PureCounter();
                   </div>
                 ))}
               </Carousel> */} 
-              {showSlides}
-              {setInterval(showSlides, 10000)}
+              {/* {showSlides} */}
+              {/* {setInterval(showSlides, 10000)} */}
               </section>
     );
 }
