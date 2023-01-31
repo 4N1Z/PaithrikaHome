@@ -13,14 +13,13 @@ import {Carousel} from 'react-responsive-carousel';
 // src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js">
 
 var flag = 0;
-function showSlides() {
+  function showSlides(){
     var slides = document.getElementsByClassName("homePic");
     switch (flag) {
       case 0:
         slides[0].style.display ='block';
         slides[1].style.display ='none';
         slides[2].style.display ='none';
-        console.log('inside case 0');
         break;
       case 1:
         slides[1].style.display ='block';
@@ -41,34 +40,10 @@ function showSlides() {
       }
   }
 function Home() { // new PureCounter();
-  var flag = 0;
-  const showSlides = ()=>{
-    var slides = document.getElementsByClassName("homePic");
-    switch (flag) {
-      case 0:
-        slides[0].style.display ='block';
-        slides[1].style.display ='none';
-        slides[2].style.display ='none';
-        console.log('inside case 0');
-        break;
-      case 1:
-        slides[1].style.display ='block';
-        slides[0].style.display ='none';
-        slides[2].style.display ='none';
-        break;
-      case 2:
-        slides[2].style.display ='block';
-        slides[0].style.display ='none';
-        slides[1].style.display ='none';
-        break;
-      default:
-        break;
-      }
-      flag++;
-      if (flag==3){
-        flag =0;
-      }
-  }
+  // const callslides = () => {
+  //   setInterval(showSlides(),10000);
+  // }
+  setInterval(showSlides,5000);
     const homepics = [
         {
             src: "https://picsum.photos/id/1/500.webp",
@@ -154,8 +129,7 @@ function Home() { // new PureCounter();
                   </div>
                 ))}
               </Carousel> */} 
-              {/* {showSlides} */}
-              {/* {setInterval(showSlides, 10000)} */}
+              
               </section>
     );
 }

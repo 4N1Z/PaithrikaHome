@@ -82,11 +82,3 @@ body,.projectMainContainer{
     animation-duration: 1s;
     
 }
-#ongoing-project:hover
-,#upcoming-project:hover,
-#finished-project:hover{
-/*     
-    animation: pulse; 
-    animation-duration: 1s;
-     */
-}
