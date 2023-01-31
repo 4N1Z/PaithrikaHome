@@ -18,6 +18,10 @@ import Testimon from "./components/Testimon/Testimon";
 import Upcoming from "./pages/Upcoming/Upcoming";
 import Ongoing from "./pages/Ongoing/Ongoing";
 import Completed from "./pages/Completed/Completed";
+import Slider from "./components/Slider/Slider";
+
+
+
 
 // import TestNav from "./components/Test_Nav/TestNav";
 // const pure = new PureCounter();
@@ -96,7 +100,8 @@ function App() {
             <About />,
             <OneStop />,
             <Projects />,
-            <Gallery />,
+            // <Gallery />,
+            <Slider/>,
             <Testimon />,
             <Contact />,
           ]}
@@ -107,6 +112,7 @@ function App() {
       </Routes>
 
       <Footer />
+      
 
       {/* <Upcoming/> */}
 
