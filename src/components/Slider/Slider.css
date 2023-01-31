@@ -101,7 +101,14 @@
    
     
 }
-  @media (max-width: 480px) {
+
+@media (max-width : 620px) {
+  .gallerySlide{
+    height: 50vh;
+  }
+  
+}
+  @media (max-width: 520px) {
 
     .eachImage{
         width: 21.875rem;
