@@ -20,7 +20,6 @@ var flag = 0;
         slides[0].style.display ='block';
         slides[1].style.display ='none';
         slides[2].style.display ='none';
-        console.log('inside case 0');
         break;
       case 1:
         slides[1].style.display ='block';
