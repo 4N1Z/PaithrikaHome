@@ -1,0 +1,120 @@
+.gallerySlide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #CC281E;
+}
+.headingMain{
+  animation: fadeIn;
+  animation-duration: 4s;
+}
+.sliderContainer {
+
+    
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+
+    animation: fadeOut;
+    animation-duration: 2s;
+    
+  }
+  
+.eachImage{
+    width: 56.25rem;
+    height: 33.75rem;
+    border-radius: 10px;
+  }
+  
+.rightArrow{
+    /* position: absolute; */
+    /* top: 50%;
+    right: 15%;
+     */
+    /* top: 0;
+    left: 0; */
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.616);
+    z-index: 100;
+    cursor: pointer;
+    user-select: none;
+}
+  
+.leftArrow {
+ 
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.616);
+    z-index: 100;
+    cursor: pointer;
+    user-select: none;
+    /* padding:0 2px 0 2px; */
+
+  }
+  .leftArrow:hover{
+    color: white;
+  }
+  .rightArrow:hover{
+    color: white;
+  }
+
+
+  .arrowsInBox{
+
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .slideImage {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slideImage.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.04);
+  }
+
+  /* image ratio 5:3 */
+
+  @media (max-width: 1080px) {
+
+    .eachImage{
+        width: 925px;
+        height: 555px;
+        border-radius: 10px;
+      }
+
+    }
+    
+  @media (max-width: 890px) {
+
+    .eachImage{
+        width: 31.25rem;
+        height: 18.25rem;
+        border-radius: 10px;
+      }
+   
+    
+}
+
+@media (max-width : 620px) {
+  .gallerySlide{
+    height: 50vh;
+  }
+  
+}
+  @media (max-width: 520px) {
+
+    .eachImage{
+        width: 21.875rem;
+        height: 13.125rem;
+        border-radius: 10px;
+      }
+      
+   
+}
