@@ -22,7 +22,7 @@ export const navLinks = [
   {
     id: "gallery",
     title: "Gallery",
-    link:"#gallery",
+    link:"#slider",
   },
   {
     id: "contact",

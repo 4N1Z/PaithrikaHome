@@ -1,5 +1,8 @@
 .about {
     min-height: 100vh;
+
+    overflow-x: hidden;
+
 }
 
 .posts {
@@ -19,7 +22,6 @@
     opacity: 0.2;
 }
 
-
 .headingMain {
 
     padding: 1em;
@@ -38,8 +40,10 @@
     padding-right: 5vw;
     z-index: 1;
     animation: fadeIn;
+
     /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s
+
 }
 
 .post-container {
@@ -52,6 +56,7 @@
     align-items: stretch;
 }
 
+
 .image-and-content {
     /* display: flex;
     align-items: flex-start; */
@@ -63,12 +68,14 @@
     animation-duration: 2s
 }
 
+
 .turn_idea_box,
 .list_of_items {
     display: flex;
     flex-direction: column;
     gap: 0.7em;
 }
+
 
 
 .list_items {
@@ -79,16 +86,15 @@
     /* padding-left: 1.84em; */
     justify-content: start;
     padding-top: 15px;
-
-
 }
+
+
 
 .itemName {
     font-size: 1.2em;
     font-weight: 400;
     gap: 0.3em;
     text-transform: capitalize;
-    /* padding-left: 1.84em; */
     font-weight: 500;
     opacity: 70%;
 }

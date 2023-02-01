@@ -18,16 +18,14 @@ import Testimon from "./components/Testimon/Testimon";
 import Upcoming from "./pages/Upcoming/Upcoming";
 import Ongoing from "./pages/Ongoing/Ongoing";
 import Completed from "./pages/Completed/Completed";
+import Slider from "./components/Slider/Slider";
 
 
 
 
 // import TestNav from "./components/Test_Nav/TestNav";
 // const pure = new PureCounter();
-import { Routes, Route} from "react-router-dom";
-
-
-
+import { Routes, Route } from "react-router-dom";
 
 // import TestNav from "./components/Test_Nav/TestNav";
 // const pure = new PureCounter();
@@ -50,7 +48,6 @@ function App() {
      * Scroll top button
      */
 
-    
     const scrollTop = document.querySelector(".scroll-top");
     if (scrollTop) {
       const togglescrollTop = function () {
@@ -65,7 +62,7 @@ function App() {
         window.scroll({
           top: 0,
           behavior: "smooth",
-          animation: "fadeIn"
+          animation: "fadeIn",
         })
       );
     }
@@ -94,17 +91,28 @@ function App() {
       <Testimon />
 
       {/* <Testimonials /> */}
-      
+
       <Routes>
-        <Route path="/" element={[<Home/>,<About/>,<OneStop/>,<Projects/>,<Gallery />,<Testimon/>,<Contact/>]}/>
-        <Route path="/upcoming" element={<Upcoming/>} />
-        <Route path="/ongoing" element={<Ongoing/>} />
-        <Route path="/finished" element={<Completed/>} />
-        </Routes>
+        <Route
+          path="/"
+          element={[
+            <Home />,
+            <About />,
+            <OneStop />,
+            <Projects />,
+            // <Gallery />,
+            <Slider/>,
+            <Testimon />,
+            <Contact />,
+          ]}
+        />
+        <Route path="/upcoming" element={<Upcoming />} />
+        <Route path="/ongoing" element={<Ongoing />} />
+        <Route path="/finished" element={<Completed />} />
+      </Routes>
 
       <Footer />
-
-
+      
 
       {/* <Upcoming/> */}
 

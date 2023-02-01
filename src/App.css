@@ -10,8 +10,11 @@ font-family: 'Poppins', sans-serif; */
 
 /* Check overflow  */
 
-/* div,p {
-  outline : 2px solid green;
+/* div{
+  outline : 5px solid green;
+} */
+/* p{
+  outline: 5px solid greenyellow;
 } */
 
 
@@ -102,20 +105,21 @@ section {
   bottom: -5px;
   z-index: 8;
 
-
+  
 
 }
-
-.chatbot {
+.chatbot{
   width: 350px;
   height: 400px;
   padding: 15px;
 }
-
-.chatbotContainer {
+.chatbotContainer{
   height: 480px;
   width: 350px;
   background-color: #97050500;
+  /* position: fixed; */
+  /* top: 12px; */
+  /* background-color: #CC281E; */
 }
 
 .close-btn {
@@ -128,8 +132,7 @@ section {
   right: 360px;
   bottom: 390px;
 }
-
-.modal {
+.modal{
   height: 100%;
   width: 100%;
   top: 0;
@@ -138,8 +141,7 @@ section {
   background-color: rgba(0, 0, 0, 0.308);
   /* backdrop-filter: blur(1px); */
 }
-
-.modal-not-visible {
+.modal-not-visible{
   height: 100%;
   width: 100%;
   top: 0;
@@ -152,7 +154,7 @@ section {
 .add-btn {
   /* padding: 15px; */
 
-  background-color: rgba(240, 248, 255, 0.43);
+  background-color:rgba(240, 248, 255, 0.43);
   border-radius: 10px;
   text-decoration: none;
   text-transform: uppercase;
