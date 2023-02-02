@@ -19,6 +19,7 @@ import Upcoming from "./pages/Upcoming/Upcoming";
 import Ongoing from "./pages/Ongoing/Ongoing";
 import Completed from "./pages/Completed/Completed";
 import Slider from "./components/Slider/Slider";
+import ScrollToTop from "./components/Scrolltotop/ScrollToTop";
 
 
 
@@ -80,7 +81,7 @@ function App() {
       <Navbar />
         </div>
       </div> */}
-
+      <ScrollToTop/>
       <Navbar />
       {/* <Season /> */}
       {/* <Home />
@@ -91,7 +92,6 @@ function App() {
       <Testimon />
 
       {/* <Testimonials /> */}
-
       <Routes>
         <Route
           path="/"
