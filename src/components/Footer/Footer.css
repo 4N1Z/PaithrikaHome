@@ -1,6 +1,6 @@
 .footerbg {
     overflow: hidden;
-    min-height: 80vh;
+    min-height: fit-content;
     background-color: black;
     color: white;
     background-image: url(../../assets/images/footerLogo.svg);
@@ -8,8 +8,8 @@
 }
 
 .footerContainer {
-    padding: 4em;
-    margin: 0;
+    /* padding: 4em; */
+    margin-top: 1em;
 }
 
 .aboveHead {
@@ -64,7 +64,8 @@
 }
 
 .socialsBottm {
-    padding: 5em;
+    /* padding: 5em; */
+    padding: 1em;
     display: flex;
     flex-direction: row;
     align-items: center;
