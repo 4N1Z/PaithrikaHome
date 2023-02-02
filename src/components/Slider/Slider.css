@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #CC281E;
 }
 .headingMain{
@@ -92,6 +92,9 @@
     }
     
   @media (max-width: 890px) {
+    #slider.gallerySlide{
+      min-height: fit-content;
+    }
 
     .eachImage{
         width: 31.25rem;
