@@ -5,6 +5,8 @@
     color: white;
     background-image: url(../../assets/images/footerLogo.svg);
     background-repeat: no-repeat;
+    background-size: 100em;
+    
 }
 
 .footerContainer {
@@ -20,9 +22,9 @@
     opacity: 0.6;
 }
 
-.FooterTitles {
+.FooterTitle {
     color: #CC281E;
-    font-size: 3.25em;
+    font-size: 2.5em;
     font-weight: 600;
     padding: 10px;
     animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
@@ -32,12 +34,15 @@
 .footerSub {
     font-weight: 200;
     line-height: 35px;
-    font-size: 1.125em;
+    font-size: 1em;
     opacity: 0.8;
 
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation: fadeIn;
     animation-duration: 2s ;
 
+}
+.footerLogo{
+    width: 5em;
 }
 
 .contactBtnFooter {
@@ -125,5 +130,12 @@
     .socialsBottm {
         display: flex;
         flex-direction: column;
+    }
+
+
+}
+@media (max-width:640px){
+    .footerbg{
+        background-image: none;
     }
 }
