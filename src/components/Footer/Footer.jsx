@@ -15,20 +15,20 @@ function Footer() {
       <div className="footerContainer">
         <div className="contentsAll">
           <h4 className="aboveHead">quam in hendrerit urna</h4>
-          <h1 className="FooterTitles">Request More Information</h1>
+          <h1 className="FooterTitle">Request More Information</h1>
           <p className="footerSub">
             mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare
             l
           </p>
           <a href="https://linktr.ee/anizbn">
-            <button className="contactBtnFooter">Contact </button>
+            <button className="contactBtnFooter">Mail Us </button>
           </a>
           <p className="copyright">© 2022 GDSC SCTCE, LLC</p>
 
           <hr />
 
           <div className="socialsBottm">
-            <img src={logoName} alt="logo" />
+            <img src={logoName} alt="logo" className="footerLogo"/>
             <div className="linksFooter">
               <a className="footerNameLink" href="https://linktr.ee/anizbn">
                 Team
