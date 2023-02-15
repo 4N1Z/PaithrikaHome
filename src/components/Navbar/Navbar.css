@@ -4,9 +4,11 @@
     width: 100%;
     padding-right: 2em;
     color: rgba(42, 41, 41, 0);
-    background-color: #f3f3f3c2;
-    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.5);
+    background-color: var(--bg-color);
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.189);
     content: " ";
+
+    /* text-transform: capitalize; */
     /* backdrop-filter: blur(24px); */
 
     /* position: fixed;

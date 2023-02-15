@@ -3,11 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500;1,700&display=swap');
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; */
+
 :root{
-  --primary-color:"#CC281E";
-  --bg-color:"#FFFEF9";
-  --large-font:"2em";
-  --medium-font:"1.2em";
+  --primary-color:#CC281E;
+  --bg-color:#FFFEF9;
+  --xlarge-font:"64px";
+  --large-font:"38px";
+  --subTitle-font:"20px";
   --small-font:"0.4em"
   
 }
@@ -18,8 +20,8 @@ font-family: 'Poppins', sans-serif; */
 } */
 /* p{
   outline: 5px solid greenyellow;
-} */
-
+}
+ */
 
 body {
 
@@ -46,7 +48,20 @@ section {
   min-height: 100vh;
 }
 
+.commonTitle{
+  
+  padding: 1em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.15em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
 
+.commonTitle{
+  animation: fadeIn;
+  animation-duration: 4s;
+}
 /*  */
 
 /* Bottom-Top Button */

@@ -42,7 +42,7 @@ function Gallery() {
     ]
     return (
         <div className='gallery-container' id='gallery'>
-            <span className='headingMain'>Gallery</span>
+            <span className='commonTitle galleryTitle'>Gallery</span>
             <div className='gallery'>
                 <div className="page page-one">
                   {gallery_data.map((item)=>(

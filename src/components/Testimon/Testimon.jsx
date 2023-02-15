@@ -7,7 +7,7 @@ function Testimon() {
   return (
     
     <div className="testimonial-container">
-      <h1 className="titleTestimon">Testimonials</h1>
+      <h1 className="commonTitle titleTestimon">Testimonials</h1>
 
       <div className="content-container">
         <ul class="hs full no-scrollbar">
