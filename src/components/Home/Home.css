@@ -95,6 +95,7 @@
 }
 .Gallery img{
     grid-area : stack;
+    max-width: 80%;
 }
 
 @media(max-width:857px){
@@ -140,15 +141,16 @@
 }
 }
 /* set the animation for the slideshow */
-.fade {
-    animation: fade 2s;
-  }
+.Gallery img{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.Gallery img.active{
+    opacity: 1;
+}
   
   /* define the keyframe animation */
   @keyframes fade {
     0% { opacity: 0; }
     100% { opacity: 1; }
-  }
-  .Gallery img{
-    display: none;
   }
