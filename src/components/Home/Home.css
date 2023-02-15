@@ -8,22 +8,6 @@
     justify-content: center;
 }
 
-
-
-
-/* Carousel{
-    border: none;
-} */
-/* .homePic{
-    width:25%;
-} */
-/* Carousel .slide-wrapper{
-    width: 50%;
-}
-carousel .thumb{
-    display: none;
-} */
-
 .mainContainer{
     display: flex;
     /* flex-direction: row; */
@@ -32,9 +16,6 @@ carousel .thumb{
     gap: 1em;
     align-items: center;
 }
-/* .leftBox{
-    padding: 10px;
-} */
 
 .heading{
     display: flex;
@@ -43,7 +24,6 @@ carousel .thumb{
 }
 
 .counterContainer{
-
 
     display: flex;
     flex-wrap: wrap;
@@ -61,7 +41,7 @@ carousel .thumb{
     font-weight:500 ;  
 }
 .title2{
-    color: #CC281E;
+    color: var(--primary-color);
 }
 .subTitles{
     
