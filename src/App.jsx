@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+
 import "./App.css";
 import "./index.css";
 import "animate.css";
@@ -20,14 +22,7 @@ import Ongoing from "./pages/Ongoing/Ongoing";
 import Completed from "./pages/Completed/Completed";
 import Slider from "./components/Slider/Slider";
 import ScrollToTop from "./components/Scrolltotop/ScrollToTop";
-// import MainContact  from "./components/MainContact/MainContact";
-
-
-
-
-// import TestNav from "./components/Test_Nav/TestNav";
 // const pure = new PureCounter();
-import { Routes, Route } from "react-router-dom";
 import MainContact from "./components/MainContact/MainContact";
 
 // import TestNav from "./components/Test_Nav/TestNav";
@@ -106,7 +101,7 @@ function App() {
             <Slider/>,
             <Testimon />,
             <Contact />,
-            // <MainContact/>
+            <MainContact/>
             
           ]}
         />
