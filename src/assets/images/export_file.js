@@ -22,10 +22,27 @@ import footerLogo from "./footerLogo.svg"
 import upArrow from "./up-arrow.webp"
 import oneStopLogo from "./OnestopLogo.svg"
 import chatBot from "./chatbot.svg"
+import home_pic_1 from "./main/home-pic-1.jpg"
+import home_pic_2 from "./main/home-pic-2.jpg"
+import home_pic_3 from "./main/home-pic-3.jpg"
 
-
+const homeimages =[
+    {
+        src:home_pic_1,
+        id:1
+    },
+    {
+        src:home_pic_2,
+        id:2
+    },
+    {
+        src:home_pic_3,
+        id:3
+    }
+]
 
 export {
+    homeimages,
     chatBot,
     logo,   
     homePic,

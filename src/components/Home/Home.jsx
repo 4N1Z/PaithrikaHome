@@ -1,7 +1,9 @@
 import React from "react";
 import "./Home.css";
-import {homePic} from "../../assets/images/export_file";
-import {homeImages} from "../../constants/index"
+import {homeImages} from "../../constants/index";
+import {homeimages} from "../../assets/images/export_file";
+import { useState, useEffect } from "react";
+
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import {Carousel} from 'react-responsive-carousel';
@@ -12,50 +14,18 @@ import {Carousel} from 'react-responsive-carousel';
 // new PureCounter()
 // src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js">
 
-var flag = 0;
-  function showSlides(){
-    var slides = document.getElementsByClassName("homePic");
-    switch (flag) {
-      case 0:
-        slides[0].style.display ='block';
-        slides[1].style.display ='none';
-        slides[2].style.display ='none';
-        break;
-      case 1:
-        slides[1].style.display ='block';
-        slides[0].style.display ='none';
-        slides[2].style.display ='none';
-        break;
-      case 2:
-        slides[2].style.display ='block';
-        slides[0].style.display ='none';
-        slides[1].style.display ='none';
-        break;
-      default:
-        break;
-      }
-      flag++;
-      if (flag==3){
-        flag =0;
-      }
-  }
-function Home() { // new PureCounter();
-  // const callslides = () => {
-  //   setInterval(showSlides(),10000);
-  // }
-  setInterval(showSlides,5000);
-    const homepics = [
-        {
-            src: "https://picsum.photos/id/1/500.webp",
-            id: 'homeimage1'
-        }, {
-            src: "https://picsum.photos/id/2/500.webp",
-            id: 'homeimage2'
-        }, {
-            src: "https://picsum.photos/id/3/500.webp",
-            id: 'homeimage3'
-        },
-    ]
+
+function Home() { 
+    
+
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentImageIndex((currentImageIndex + 1) % homeimages.length+1);
+    }, 3000);
+
+    return () => clearInterval(intervalId);
+  }, [currentImageIndex]);
 
     return (
         <section id="home">
@@ -81,14 +51,16 @@ function Home() { // new PureCounter();
                     <div className="rightBox">
                         <div className="Gallery">
                             {
-                            homepics.map((item) => <img className="homePic fade"
+                            homeimages.map((item) => <img
                                 src={
                                     item.src
                                 }
                                 id={
                                     item.id
                                 }
-                                alt="home pic"/>)
+                                alt="home pic"
+                                className={item.id === currentImageIndex ? "homePic active" : "homePic"}
+                                />)
                         } </div>
                     </div>
                 </div>
