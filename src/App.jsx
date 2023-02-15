@@ -11,8 +11,8 @@ import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Season from "./components/Season/Season";
-import Gallery from "./components/Gallery/Gallery";
+// import Season from "./components/Season/Season";
+// import Gallery from "./components/Gallery/Gallery";
 import OneStop from "./components/OneStop/OneStop";
 import Testimon from "./components/Testimon/Testimon";
 import Upcoming from "./pages/Upcoming/Upcoming";
@@ -20,6 +20,7 @@ import Ongoing from "./pages/Ongoing/Ongoing";
 import Completed from "./pages/Completed/Completed";
 import Slider from "./components/Slider/Slider";
 import ScrollToTop from "./components/Scrolltotop/ScrollToTop";
+// import MainContact  from "./components/MainContact/MainContact";
 
 
 
@@ -27,6 +28,7 @@ import ScrollToTop from "./components/Scrolltotop/ScrollToTop";
 // import TestNav from "./components/Test_Nav/TestNav";
 // const pure = new PureCounter();
 import { Routes, Route } from "react-router-dom";
+import MainContact from "./components/MainContact/MainContact";
 
 // import TestNav from "./components/Test_Nav/TestNav";
 // const pure = new PureCounter();
@@ -104,6 +106,8 @@ function App() {
             <Slider/>,
             <Testimon />,
             <Contact />,
+            // <MainContact/>
+            
           ]}
         />
         <Route path="/upcoming" element={<Upcoming />} />
@@ -111,6 +115,7 @@ function App() {
         <Route path="/finished" element={<Completed />} />
       </Routes>
 
+      
       <Footer />
       
 
