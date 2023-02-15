@@ -3,13 +3,9 @@ body,.projectMainContainer{
 }
 
 .titleProject{
-    text-align: center;
-    font-weight: 600;
-    color: #CC281E;
-    font-size:2em;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    padding: 2em;
+
+    color: var(--primary-color);
+  
     
 }
 .projects-container{

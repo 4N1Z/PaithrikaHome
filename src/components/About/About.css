@@ -23,15 +23,7 @@
 }
 
 .headingMain {
-
-    padding: 1em;
-    text-align: center;
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 2em;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-
+    color: var(--bg-color);
 }
 
 .image_main {
@@ -133,11 +125,13 @@
 
 
 .contactbtn {
+    
     border-radius: 4px;
     border: none;
     z-index: 100;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
+    letter-spacing: 2px;
     color: rgb(255, 255, 255);
     background: #080808;
     margin-bottom: 1.3em;
@@ -150,7 +144,8 @@
 
 .contactbtn:hover {
 
-    transform: translateY(1px);
+    background: #1e1e1e;
+    transform: translateY(1.2px);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1),
         0 1px 1px 0 rgba(0, 0, 0, 0.2);
 }

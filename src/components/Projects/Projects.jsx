@@ -45,7 +45,7 @@ function Projects() {
   return (
     <>
     <section className='projectMainContainer' id="project">
-        <h1 className='titleProject'>Projects</h1>
+        <h1 className=' commonTitle titleProject'>Projects</h1>
 
     <div className='projects-container'>
         <Link to="/upcoming" className="project" id='upcoming-project' onMouseEnter={upcoming_mouse_enter}
