@@ -15,7 +15,7 @@ function Footer() {
         <footer >
             <div className="footerContainer">
               <div className="footerGroups footerLocation">
-                  <h3>Location</h3>
+                  <h3  className="footerSubTitle">Location</h3>
                   <ul>
                       <li>Lorem ipsum dolor sit amet consectetur adipis
                                       ecto veritatis magni laboriosam sunt eligendi r
@@ -29,24 +29,24 @@ function Footer() {
                       </li>
                   </ul>
               </div>
-              <div className="footerGroups">
-                  <h3>Our Projects</h3>
+              <div className="projectFooter footerGroups">
+                  <h3 className="footerSubTitle" >Our Projects</h3>
                   <ul>
                       <li><Link to='/oncoming' >Ongoing</Link></li>
                       <li><Link to='/upcoming' >Upcoming</Link></li>
                       <li><Link to='/finished' >Finished</Link></li>
                   </ul>
               </div>
-              <div className="footerGroups">
-                  <h3>Corporate</h3>
+              <div className="projectFooter footerGroups">
+                  <h3 className="footerSubTitle">Corporate</h3>
                   <ul>
-                    <li><Link to={'#About'}>About Us</Link></li>
+                    <li><Link to ='/About'>About Us</Link></li>
                     <li>Mission & Vision</li>
                     <li>Leadership</li>
                     <li>News & Events</li>
                   </ul>
               </div>
-              <div className="footerSocialLogo">
+              <div className="projectFooter footerSocialLogo footerGroups ">
                <a className="footerSocialLink" href="https://instagram.com/paithrika_homes?igshid=NTdlMDg3MTY=">
                  <img src={instagram} alt="" />
                </a>

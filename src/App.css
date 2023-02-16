@@ -114,16 +114,15 @@ section {
   bottom: 15px;
 }
 
+
+
 .chatbot,
 .chatbotContainer {
 
   position: fixed;
-
   right: 50px;
   bottom: -5px;
   z-index: 8;
-
-  
 
 }
 .chatbot{
@@ -182,10 +181,10 @@ section {
 .add-btn {
 
   position: fixed;
-  right: 32px;
-  bottom: 75px;
+  right: -10px;
+  bottom: 74px;
   height: 50px;
-  width: 50px;
+  width: 56px;
   z-index: -1;
   background-color: #F3F3F3;
   box-shadow: 0px 0px 24px rgba(24, 1, 0, 0.159);
@@ -205,8 +204,10 @@ section {
   box-shadow: 0px 0px 24px rgba(204, 39, 30, 0.25);
 
 
+}
+.add-btn-logo{
 
-
+  width: 48px;
 }
 
 @media screen and (max-width: 470px) {

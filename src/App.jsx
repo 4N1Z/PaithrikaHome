@@ -93,9 +93,12 @@ function App() {
         <Route path="/ongoing" element={<Ongoing />} />
         <Route path="/finished" element={<Completed />} />
         <Route path = "/Contact" element = {<Contact/>}/>
+        <Route path ="/About" element = {<About/>} />
       </Routes>
 
-      <Footer />
+       
+          <Footer />
+       
       
 
 
@@ -108,7 +111,7 @@ function App() {
 
       <div className="chatbotContainer">
         <a className="add-btn" href="#" onClick={() => setModalVisible(true)}>
-          <img src={chatBot} alt="chatbot" />
+          <img className= "add-btn-logo"src={chatBot} alt="chatbot" />
         </a>
         <div className={modalVisible ? "modal" : "modal-not-visible"}>
           <a
