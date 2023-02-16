@@ -1,142 +1,82 @@
+footer{
+    /* padding: 1em; */
+    margin-top: 1em;
+    background-color: black;
+}
 .footerbg {
     overflow: hidden;
-    min-height: fit-content;
+    /* min-height: fit-content;
+ */
+    
     background-color: black;
     color: white;
-    background-image: url(../../assets/images/footerLogo.svg);
-    background-repeat: no-repeat;
+    /* background-image: url(../../assets/images/footerLogo.svg); */
+    background-repeat: repeat;
     background-size: 100em;
     
 }
-
-.footerContainer {
-    /* padding: 4em; */
-    margin-top: 1em;
-}
-
-.aboveHead {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 0.93em;
-    letter-spacing: 0.2em;
-    opacity: 0.6;
-}
-
-.FooterTitle {
-    color: #CC281E;
-    font-size: 2.5em;
-    font-weight: 600;
-    padding: 10px;
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s  ;
-}
-
-.footerSub {
-    font-weight: 200;
-    line-height: 35px;
-    font-size: 1em;
-    opacity: 0.8;
-
-    animation: fadeIn;
-    animation-duration: 2s ;
-
-}
-.footerLogo{
-    width: 5em;
-}
-
-.contactBtnFooter {
-    margin: 20px;
-    padding: 0.6em 2em 0.6em 2em;
-    background: #CC281E;
-    box-shadow: 0px 0px 32px rgba(204, 40, 30, 0.5);
-    border-radius: 5px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    /* font-size: 18px; */
-    text-transform: uppercase;
+.footerContainer{
     color: white;
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
-
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s ;
-}
-
-.contactBtnFooter:hover {
-    transform: translateY(1px);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
-        0 1px 1px 0 rgba(0, 0, 0, 0.09);
-}
-
-.socialsBottm {
-    /* padding: 5em; */
-    padding: 1em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s ;
-}
-
-.contentsAll {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    justify-items: center;
     text-align: center;
+    padding: 0 1em;
+    line-height: 20pt;
+    place-items: center;
+    gap:1em;
+    margin: .5em;
+    padding: .5em;
+    padding-top:2em;
 }
+.footerGroups{
+    height: fit-content;
+    align-self: start;
+}
+.footerLocation{
+    grid-row:span 2;
+}
+.footerContainer h3{
+    font-weight: bold;
 
-.socialLogo {
+}
+.footerSocialLogo{
     display: flex;
-    flex-direction: row;
+    padding: 1em;
 }
-
-.linksFooter {
+.footerSocialLogo *{
+    margin: 0 .5em;
+}
+.footerBanner{
+    background-color: var(--primary-color);
     display: flex;
-    flex-direction: row;
-    padding: 0.2em;
+    justify-content: space-between;
+    padding: .25em .5em;
 }
-
-.footerNameLink {
-    padding: 0.825em;
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s ;
+.footerGroups>ul>li:hover{
+    text-decoration:underline var(--primary-color);
+    /* font-size: 3em; */
 }
+@media screen and (min-width:500px) {
 
-.footerNameLink:hover {
-    color: #CC281E;
-}
-
-.footerSocialLink {
-    padding: 0.5em;
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
-    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s ;
-}
-
-.footerSocialLink:hover {
-
-    transform: translateY(1px);
-    box-shadow: 0 1px 1px 0 rgba(225, 6, 6, 0.6),
-                        0 1px 1px 0 rgba(255, 0, 0, 0.4);
-
-
-}
-
-
-
-
-@media (max-width:860px) {
-    .socialsBottm {
-        display: flex;
-        flex-direction: column;
+    .footerContainer{
+        text-align: left;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(3,1fr);
+    }  
+    .footerGroups{
+        grid-row: span 2;
     }
-
-
-}
-@media (max-width:640px){
-    .footerbg{
-        background-image: none;
+    .footerSocialLogo{
+        grid-column-start:2;
+        grid-column-end:3;
+    }
+    .footerBanner{
+      
     }
 }
+/* div{
+    outline: green 1px solid;
+
+} */
