@@ -116,4 +116,22 @@ textarea {
 
 }
 
+@media screen and (max-width:580px){
+    .ContactImageContainer{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: cover;
+        min-height: 30vh;
+
+    }
+    .blackOverlayContact{
+        min-height: 30vh;
+
+    }
+    .contactOverlayTitle{
+        padding-top: 3em;
+    }
+
+}
+
 
