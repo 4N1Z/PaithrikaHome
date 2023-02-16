@@ -58,6 +58,7 @@ function Projects() {
             
             <div className="black-overlay"><p className='projectSubtitle'><span className='project-bold'>Upcoming</span><br/>Projects</p></div>
         </Link>
+        
         <Link to="/ongoing" className="project" id='ongoing-project'  onMouseEnter={ongoing_mouse_enter}
         style={
             {

@@ -11,20 +11,22 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 // import Season from "./components/Season/Season";
-// import Gallery from "./components/Gallery/Gallery";
 import OneStop from "./components/OneStop/OneStop";
 import Testimon from "./components/Testimon/Testimon";
+import Slider from "./components/Slider/Slider";
+import ScrollToTop from "./components/Scrolltotop/ScrollToTop";
+import MainContact from "./components/MainContact/MainContact";
+
 import Upcoming from "./pages/Upcoming/Upcoming";
 import Ongoing from "./pages/Ongoing/Ongoing";
 import Completed from "./pages/Completed/Completed";
-import Slider from "./components/Slider/Slider";
-import ScrollToTop from "./components/Scrolltotop/ScrollToTop";
-// const pure = new PureCounter();
-import MainContact from "./components/MainContact/MainContact";
+import Contact from "./pages/Contact/Contact";
 
+
+
+// const pure = new PureCounter();
 // import TestNav from "./components/Test_Nav/TestNav";
 // const pure = new PureCounter();
 
@@ -68,27 +70,10 @@ function App() {
 
   return (
     <div className="App">
-      {/* Preloader added not woring ! */}
-      {/* <div id="preloader"></div> */}
 
-      {/* <div className="bg-primary w-full overflow-hidden"></div>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          
-      <Navbar />
-        </div>
-      </div> */}
       <ScrollToTop/>
       <Navbar />
-      {/* <Season /> */}
-      {/* <Home />
-      <About />
-      <OneStop />
-      <Projects />
-      <Gallery />
-      <Testimon />
 
-      {/* <Testimonials /> */}
       <Routes>
         <Route
           path="/"
@@ -100,7 +85,6 @@ function App() {
             // <Gallery />,
             <Slider/>,
             <Testimon />,
-            <Contact />,
             <MainContact/>
             
           ]}
@@ -108,13 +92,12 @@ function App() {
         <Route path="/upcoming" element={<Upcoming />} />
         <Route path="/ongoing" element={<Ongoing />} />
         <Route path="/finished" element={<Completed />} />
+        <Route path = "/Contact" element = {<Contact/>}/>
       </Routes>
 
-      
       <Footer />
       
 
-      {/* <Upcoming/> */}
 
       {/*        Bottom -top Arrow         */}
       {/* This is working hopefullly */}
@@ -122,7 +105,6 @@ function App() {
         <img src={upArrow} alt="" />
       </a>
 
-      {/* w-[28px] h-[28px] object-contain cursor-pointer z-30 */}
 
       <div className="chatbotContainer">
         <a className="add-btn" href="#" onClick={() => setModalVisible(true)}>

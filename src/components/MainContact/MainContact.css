@@ -4,14 +4,12 @@
     min-height: 40vh;
     background-color: rgb(0, 0, 0);
     opacity: 85%;
-    /* z-index: 10; */
 }
 
 .MainContact_Container {
     /* The image used */
     min-height: 40vh;
     background-image: url(../../assets/images/main/AadyaAvenue.jpg);
-    /* z-index: -1000; */
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: cover;
@@ -24,35 +22,97 @@
 .contactNameMain {
 
     color: var(--bg-color);
-    padding:7em 0 5em 0;
-
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around; */
-
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
+    padding: 7em 0 5em 0;
 
     display: grid;
     grid-template-columns: 2fr 1fr;
     text-transform: uppercase;
-    /* letter-spacing: 2px; */
     align-items: center;
     justify-items: center;
-
     text-transform: uppercase;
-    /* letter-spacing: 2px; */
-
 
 }
-.contact_text_title{
+
+.contact_text_title {
     font-weight: 500;
     font-size: 1.7em;
-
 }
 
-.contact_test_title_1{
-    font-size: 1.2em ;
-    text-transform:capitalize;
+.contact_test_title_1 {
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+
+.submitBtnContact{
+    padding: 0.6em 1em 0.6em 1em;   
+    background: #CC281E;
+    box-shadow: 0px 0px 32px rgba(204, 40, 30, 0.5);
+    border-radius: 5px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    z-index: 10;
+    
+    color: white;
+    -webkit-transition: all 300ms ease;
+			transition: all 300ms ease;
+}
+
+.submitBtnContact:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+                        0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+@media screen and (max-width:920px) {
+    .contact_text_title {
+        /* font-weight: 500; */
+        /* font-size: 1.7em; */
+    }
+
+
+    
+}
+@media screen and (max-width:580px) {
+
+    .MainContact_Container {
+
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: cover;
+        min-height: 30vh;
+
+    }
+
+    .blackOverlay {
+        min-height: 30vh;
+    }
+
+    .contactNameMain {
+
+        padding: 0;
+        padding-top: 2em;
+        /* grid: none; */
+        /* display: grid; */
+        text-align: center;
+        grid: none;
+        grid-template-rows: 2fr 1fr;
+        align-items: center;
+        justify-items: center;
+        text-transform: uppercase;
+
+    }
+
+    .contact_text_title {
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+
+    .contact_test_title_1 {
+        font-size: 0.9em;
+    }
+
 }
