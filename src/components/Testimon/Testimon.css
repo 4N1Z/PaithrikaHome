@@ -4,9 +4,31 @@
 .no-scrollbar::-webkit-scrollbar {
   /* display: none; */
   /* height: 100px; */
+  /* width: 0.2em; */
+  height: 0.6em;
+  cursor: pointer;
+  
 
 }
+.no-scrollbar::-webkit-scrollbar-track{
+  background-color: #cc271e1b;
+  border-radius: 50vw;
+  margin-inline: 6em;
+  cursor: pointer;
+}
+.no-scrollbar::-webkit-scrollbar-thumb{
+  background-color: #CC281E;
+  border-radius: 100vw;
 
+  
+}
+
+@supports(scrollbar-color: #cc271e1b #CC281E){
+  *{
+    scrollbar-color : rgb(#cc271e1b) rgb(#CC281E);
+    scrollbar-width: thin;
+  }
+}
 .testimonial-container{
   padding-top: 5vh;
   /* padding-left: 1%; */
