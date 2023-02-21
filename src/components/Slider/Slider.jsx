@@ -23,7 +23,7 @@ function Slider() {
 
   return (
     <section className="gallerySlide" id="slider">
-      <h4 className='headingMain'>Gallery</h4>
+      <h4 className='commonTitle GalleryMainTitle'>Gallery</h4>
 
       <div className="SliderContainer">
 

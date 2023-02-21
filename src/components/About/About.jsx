@@ -11,7 +11,7 @@ function About() {
         <div className="main_image_bg">
           <img src={PaithrikaBG} alt="" className="bg" />
         </div>
-        <h1 className="headingMain">About Us</h1>
+        <h1 className="commonTitle headingMain">About Us</h1>
 
         <div className="post-container">
           <img className="image_main" src={about} alt="" />
@@ -44,7 +44,7 @@ function About() {
         </div>
 
         <button className="contactbtn">
-          <a href="https://linktr.ee/anizbn">Contact</a>
+          <a href="https://linktr.ee/anizbn">Know More</a>
         </button>
       </div>
     </section>

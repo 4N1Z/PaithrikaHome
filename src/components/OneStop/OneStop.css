@@ -13,14 +13,9 @@
 .rowMain-container {
     padding: 30px;
 }
+
 .titleOneStop{
-    text-align: center;
-    font-weight: 600;
-    color: #CC281E;
-    font-size:2em;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    padding: 1em;
+    color: var(--primary-color); 
 }
 
 .cards {

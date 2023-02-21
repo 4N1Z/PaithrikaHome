@@ -2,13 +2,23 @@ import React from "react";
 import "./Contact.css";
 import "../../App.css";
 
+
+
 function Contact() {
   return (
+    <>
+  
     <section id="contact">
+      <div className="ContactImageContainer">
+        <div className="blackOverlayContact">
+          <h1 className="contactOverlayTitle commonTitle">Contact</h1>
+          
+        </div>
+      </div>
       <div className="contactContainer">
         <div className="textBox">
-          <h1 className="titles_contact">Let's Talk</h1>
-          <h4 className="subtitle_contact">Say 'hi' for enquiry</h4>
+          <h1 className="commonTitle titles_contact">Let's Talk</h1>
+          <h4 className="subtitle_contact">Say '  hi' for enquiry</h4>
         </div>
 
         <div className="contactForms">
@@ -38,6 +48,8 @@ function Contact() {
         </div>
       </div>
     </section>
+
+    </>
   );
 }
 

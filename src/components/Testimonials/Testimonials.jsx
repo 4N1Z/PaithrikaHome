@@ -8,7 +8,7 @@ function Testimonials() {
   return (
     <section id="testimonialsSection">
       <div className="enableScroll">
-        <h1 class="titleTestimonial">Testimonials</h1>
+        <h1 class="commonTitle titleTestimonial">Testimonials</h1>
         <div class="testimonials">
           {sampleTestimonials.map((test) => (
             <div class="testimonial">

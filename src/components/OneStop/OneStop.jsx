@@ -8,7 +8,7 @@ function OneStop() {
     <section id="OneStop">
       <div className="OneStopDiv">
         <img src={oneStopLogo} alt="" className="onebg" />
-        <h1 className="titleOneStop">Services Offered</h1>
+        <h1 className="commonTitle titleOneStop">Services Offered</h1>
 
         <div class="rowMain-container">
           <div class="rowHeading"></div>

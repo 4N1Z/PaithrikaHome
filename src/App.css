@@ -4,25 +4,30 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
+:root{
+  --primary-color:#CC281E;
+  --bg-color:#FFFEF9;
+  --xlarge-font:"64px";
+  --large-font:"38px";
+  --subTitle-font:"20px";
+  --small-font:"0.4em"
+  
+}
 /* Check overflow  */
-
-/* div{
+/* 
+div{
   outline : 5px solid green;
 } */
 /* p{
   outline: 5px solid greenyellow;
-} */
-
+}
+ */
 
 body {
 
 
   font-family: 'Poppins', sans-serif;
-  background-color: #F3F3F3;
+  background-color: var(--bg-color);
   width: 100%;
   overflow-x: hidden;
   /* min-height: 100vh; */
@@ -35,7 +40,7 @@ body::-webkit-scrollbar {
 }
 
 * {
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
 }
 
@@ -43,7 +48,20 @@ section {
   min-height: 100vh;
 }
 
+.commonTitle{
+  
+  padding: 1em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.15em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
 
+.commonTitle{
+  animation: fadeIn;
+  animation-duration: 4s;
+}
 /*  */
 
 /* Bottom-Top Button */
@@ -96,16 +114,15 @@ section {
   bottom: 15px;
 }
 
+
+
 .chatbot,
 .chatbotContainer {
 
   position: fixed;
-
   right: 50px;
   bottom: -5px;
   z-index: 8;
-
-  
 
 }
 .chatbot{
@@ -164,10 +181,10 @@ section {
 .add-btn {
 
   position: fixed;
-  right: 32px;
-  bottom: 75px;
+  right: -10px;
+  bottom: 74px;
   height: 50px;
-  width: 50px;
+  width: 56px;
   z-index: -1;
   background-color: #F3F3F3;
   box-shadow: 0px 0px 24px rgba(24, 1, 0, 0.159);
@@ -187,8 +204,10 @@ section {
   box-shadow: 0px 0px 24px rgba(204, 39, 30, 0.25);
 
 
+}
+.add-btn-logo{
 
-
+  width: 48px;
 }
 
 @media screen and (max-width: 470px) {
