@@ -65,6 +65,8 @@ section {
 /*  */
 
 /* Bottom-Top Button */
+
+
 .scroll-top {
 
   position: fixed;
@@ -87,7 +89,6 @@ section {
 .scroll-top img {
   padding-top: 2.5px;
   width: 34px;
-  /* line-height: 0; */
 }
 
 .scroll-top:hover {
@@ -99,8 +100,9 @@ section {
   animation: gradient 22s ease infinite;
   transition: .5s;
 
-  /* box-shadow: 0px 0px 23px #cc/ff00c9; */
 }
+
+
 
 /* @media (max-width: 768px) {
   .home .row {

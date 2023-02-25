@@ -5,6 +5,7 @@ import "./App.css";
 import "./index.css";
 import "animate.css";
 
+
 import { upArrow, close, chatBot } from "./assets/images/export_file";
 
 import Home from "./components/Home/Home";
@@ -23,6 +24,8 @@ import Upcoming from "./pages/Upcoming/Upcoming";
 import Ongoing from "./pages/Ongoing/Ongoing";
 import Completed from "./pages/Completed/Completed";
 import Contact from "./pages/Contact/Contact";
+
+
 
 
 
@@ -97,7 +100,7 @@ function App() {
       </Routes>
 
        
-          <Footer />
+      <Footer />
        
       
 
@@ -107,6 +110,7 @@ function App() {
       <a href="#" class="scroll-top d-flex justify-content-center">
         <img src={upArrow} alt="" />
       </a>
+
 
 
       <div className="chatbotContainer">
@@ -129,6 +133,8 @@ function App() {
         </div>
       </div>
     </div>
+
+
   );
 }
 
